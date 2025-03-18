@@ -1,0 +1,5 @@
+.renderer {
+    width: 100%;
+    background-color: #e4e6ed;
+    border: 1px solid var(--mantine-color-gray-3);
+}
