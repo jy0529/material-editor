@@ -1,4 +1,4 @@
-# Rsbuild project
+# 小米SU7 3D 编辑器
 
 ## Setup
 
