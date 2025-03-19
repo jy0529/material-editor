@@ -1,177 +1,138 @@
-lockfileVersion: '6.0'
+lockfileVersion: '9.0'
 
-dependencies:
-  '@mantine/core':
-    specifier: ^7.17.2
-    version: registry.npmmirror.com/@mantine/core@7.17.2(@mantine/hooks@7.17.2)(@types/react@19.0.10)(react-dom@19.0.0)(react@19.0.0)
-  '@mantine/hooks':
-    specifier: ^7.17.2
-    version: registry.npmmirror.com/@mantine/hooks@7.17.2(react@19.0.0)
-  '@mantinex/mantine-logo':
-    specifier: ^1.1.0
-    version: registry.npmmirror.com/@mantinex/mantine-logo@1.1.0(@mantine/core@7.17.2)(@mantine/hooks@7.17.2)(react-dom@19.0.0)(react@19.0.0)
-  clsx:
-    specifier: ^2.1.1
-    version: registry.npmmirror.com/clsx@2.1.1
-  react:
-    specifier: ^19.0.0
-    version: registry.npmmirror.com/react@19.0.0
-  react-dom:
-    specifier: ^19.0.0
-    version: registry.npmmirror.com/react-dom@19.0.0(react@19.0.0)
-  three:
-    specifier: ^0.174.0
-    version: registry.npmmirror.com/three@0.174.0
-  zustand:
-    specifier: ^5.0.3
-    version: registry.npmmirror.com/zustand@5.0.3(@types/react@19.0.10)(react@19.0.0)
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
 
-devDependencies:
-  '@rsbuild/core':
-    specifier: ^1.2.16
-    version: registry.npmmirror.com/@rsbuild/core@1.2.16
-  '@rsbuild/plugin-react':
-    specifier: ^1.1.1
-    version: registry.npmmirror.com/@rsbuild/plugin-react@1.1.1(@rsbuild/core@1.2.16)
-  '@tailwindcss/postcss':
-    specifier: ^4.0.14
-    version: registry.npmmirror.com/@tailwindcss/postcss@4.0.14
-  '@types/node':
-    specifier: ^22.13.10
-    version: registry.npmmirror.com/@types/node@22.13.10
-  '@types/react':
-    specifier: ^19.0.10
-    version: registry.npmmirror.com/@types/react@19.0.10
-  '@types/react-dom':
-    specifier: ^19.0.4
-    version: registry.npmmirror.com/@types/react-dom@19.0.4(@types/react@19.0.10)
-  '@types/three':
-    specifier: ^0.174.0
-    version: registry.npmmirror.com/@types/three@0.174.0
-  postcss:
-    specifier: ^8.5.3
-    version: registry.npmmirror.com/postcss@8.5.3
-  postcss-preset-mantine:
-    specifier: ^1.17.0
-    version: registry.npmmirror.com/postcss-preset-mantine@1.17.0(postcss@8.5.3)
-  postcss-simple-vars:
-    specifier: ^7.0.1
-    version: registry.npmmirror.com/postcss-simple-vars@7.0.1(postcss@8.5.3)
-  tailwindcss:
-    specifier: ^4.0.14
-    version: registry.npmmirror.com/tailwindcss@4.0.14
-  typescript:
-    specifier: ^5.8.2
-    version: registry.npmmirror.com/typescript@5.8.2
+importers:
+
+  .:
+    dependencies:
+      '@mantine/core':
+        specifier: ^7.17.2
+        version: https://registry.npmmirror.com/@mantine/core/-/core-7.17.2.tgz(@mantine/hooks@7.17.2)(@types/react@19.0.10)(react-dom@19.0.0)(react@19.0.0)
+      '@mantine/hooks':
+        specifier: ^7.17.2
+        version: https://registry.npmmirror.com/@mantine/hooks/-/hooks-7.17.2.tgz(react@19.0.0)
+      '@mantinex/mantine-logo':
+        specifier: ^1.1.0
+        version: https://registry.npmmirror.com/@mantinex/mantine-logo/-/mantine-logo-1.1.0.tgz(@mantine/core@7.17.2)(@mantine/hooks@7.17.2)(react-dom@19.0.0)(react@19.0.0)
+      clsx:
+        specifier: ^2.1.1
+        version: https://registry.npmmirror.com/clsx/-/clsx-2.1.1.tgz
+      react:
+        specifier: ^19.0.0
+        version: https://registry.npmmirror.com/react/-/react-19.0.0.tgz
+      react-dom:
+        specifier: ^19.0.0
+        version: https://registry.npmmirror.com/react-dom/-/react-dom-19.0.0.tgz(react@19.0.0)
+      three:
+        specifier: ^0.174.0
+        version: https://registry.npmmirror.com/three/-/three-0.174.0.tgz
+      zustand:
+        specifier: ^5.0.3
+        version: https://registry.npmmirror.com/zustand/-/zustand-5.0.3.tgz(@types/react@19.0.10)(react@19.0.0)
+    devDependencies:
+      '@rsbuild/core':
+        specifier: ^1.2.16
+        version: https://registry.npmmirror.com/@rsbuild/core/-/core-1.2.16.tgz
+      '@rsbuild/plugin-react':
+        specifier: ^1.1.1
+        version: https://registry.npmmirror.com/@rsbuild/plugin-react/-/plugin-react-1.1.1.tgz(@rsbuild/core@1.2.16)
+      '@tailwindcss/postcss':
+        specifier: ^4.0.14
+        version: https://registry.npmmirror.com/@tailwindcss/postcss/-/postcss-4.0.14.tgz
+      '@types/node':
+        specifier: ^22.13.10
+        version: https://registry.npmmirror.com/@types/node/-/node-22.13.10.tgz
+      '@types/react':
+        specifier: ^19.0.10
+        version: https://registry.npmmirror.com/@types/react/-/react-19.0.10.tgz
+      '@types/react-dom':
+        specifier: ^19.0.4
+        version: https://registry.npmmirror.com/@types/react-dom/-/react-dom-19.0.4.tgz(@types/react@19.0.10)
+      '@types/three':
+        specifier: ^0.174.0
+        version: https://registry.npmmirror.com/@types/three/-/three-0.174.0.tgz
+      postcss:
+        specifier: ^8.5.3
+        version: https://registry.npmmirror.com/postcss/-/postcss-8.5.3.tgz
+      postcss-preset-mantine:
+        specifier: ^1.17.0
+        version: https://registry.npmmirror.com/postcss-preset-mantine/-/postcss-preset-mantine-1.17.0.tgz(postcss@8.5.3)
+      postcss-simple-vars:
+        specifier: ^7.0.1
+        version: https://registry.npmmirror.com/postcss-simple-vars/-/postcss-simple-vars-7.0.1.tgz(postcss@8.5.3)
+      tailwindcss:
+        specifier: ^4.0.14
+        version: https://registry.npmmirror.com/tailwindcss/-/tailwindcss-4.0.14.tgz
+      typescript:
+        specifier: ^5.8.2
+        version: https://registry.npmmirror.com/typescript/-/typescript-5.8.2.tgz
 
 packages:
 
-  registry.npmmirror.com/@alloc/quick-lru@5.2.0:
+  '@alloc/quick-lru@https://registry.npmmirror.com/@alloc/quick-lru/-/quick-lru-5.2.0.tgz':
     resolution: {integrity: sha512-UrcABB+4bUrFABwbluTIBErXwvbsU/V7TZWfmbgJfbkwiBuziS9gxdODUyuiecfdGQ85jglMW6juS3+z5TsKLw==, registry: http://registry.npm.faidev.cc/, tarball: https://registry.npmmirror.com/@alloc/quick-lru/-/quick-lru-5.2.0.tgz}
     name: '@alloc/quick-lru'
     version: 5.2.0
     engines: {node: '>=10'}
-    dev: true
 
-  registry.npmmirror.com/@babel/runtime@7.26.10:
+  '@babel/runtime@https://registry.npmmirror.com/@babel/runtime/-/runtime-7.26.10.tgz':
     resolution: {integrity: sha512-2WJMeRQPHKSPemqk/awGrAiuFfzBmOIPXKizAsVhWH9YJqLZ0H+HS4c8loHGgW6utJ3E/ejXQUsiGaQy2NZ9Fw==, registry: http://registry.npm.faidev.cc/, tarball: https://registry.npmmirror.com/@babel/runtime/-/runtime-7.26.10.tgz}
     name: '@babel/runtime'
     version: 7.26.10
     engines: {node: '>=6.9.0'}
-    dependencies:
-      regenerator-runtime: registry.npmmirror.com/regenerator-runtime@0.14.1
-    dev: false
 
-  registry.npmmirror.com/@floating-ui/core@1.6.9:
+  '@floating-ui/core@https://registry.npmmirror.com/@floating-ui/core/-/core-1.6.9.tgz':
     resolution: {integrity: sha512-uMXCuQ3BItDUbAMhIXw7UPXRfAlOAvZzdK9BWpE60MCn+Svt3aLn9jsPTi/WNGlRUu2uI0v5S7JiIUsbsvh3fw==, registry: http://registry.npm.faidev.cc/, tarball: https://registry.npmmirror.com/@floating-ui/core/-/core-1.6.9.tgz}
     name: '@floating-ui/core'
     version: 1.6.9
-    dependencies:
-      '@floating-ui/utils': registry.npmmirror.com/@floating-ui/utils@0.2.9
-    dev: false
 
-  registry.npmmirror.com/@floating-ui/dom@1.6.13:
+  '@floating-ui/dom@https://registry.npmmirror.com/@floating-ui/dom/-/dom-1.6.13.tgz':
     resolution: {integrity: sha512-umqzocjDgNRGTuO7Q8CU32dkHkECqI8ZdMZ5Swb6QAM0t5rnlrN3lGo1hdpscRd3WS8T6DKYK4ephgIH9iRh3w==, registry: http://registry.npm.faidev.cc/, tarball: https://registry.npmmirror.com/@floating-ui/dom/-/dom-1.6.13.tgz}
     name: '@floating-ui/dom'
     version: 1.6.13
-    dependencies:
-      '@floating-ui/core': registry.npmmirror.com/@floating-ui/core@1.6.9
-      '@floating-ui/utils': registry.npmmirror.com/@floating-ui/utils@0.2.9
-    dev: false
 
-  registry.npmmirror.com/@floating-ui/react-dom@2.1.2(react-dom@19.0.0)(react@19.0.0):
+  '@floating-ui/react-dom@https://registry.npmmirror.com/@floating-ui/react-dom/-/react-dom-2.1.2.tgz':
     resolution: {integrity: sha512-06okr5cgPzMNBy+Ycse2A6udMi4bqwW/zgBF/rwjcNqWkyr82Mcg8b0vjX8OJpZFy/FKjJmw6wV7t44kK6kW7A==, registry: http://registry.npm.faidev.cc/, tarball: https://registry.npmmirror.com/@floating-ui/react-dom/-/react-dom-2.1.2.tgz}
-    id: registry.npmmirror.com/@floating-ui/react-dom/2.1.2
     name: '@floating-ui/react-dom'
     version: 2.1.2
     peerDependencies:
       react: '>=16.8.0'
       react-dom: '>=16.8.0'
-    dependencies:
-      '@floating-ui/dom': registry.npmmirror.com/@floating-ui/dom@1.6.13
-      react: registry.npmmirror.com/react@19.0.0
-      react-dom: registry.npmmirror.com/react-dom@19.0.0(react@19.0.0)
-    dev: false
 
-  registry.npmmirror.com/@floating-ui/react@0.26.28(react-dom@19.0.0)(react@19.0.0):
+  '@floating-ui/react@https://registry.npmmirror.com/@floating-ui/react/-/react-0.26.28.tgz':
     resolution: {integrity: sha512-yORQuuAtVpiRjpMhdc0wJj06b9JFjrYF4qp96j++v2NBpbi6SEGF7donUJ3TMieerQ6qVkAv1tgr7L4r5roTqw==, registry: http://registry.npm.faidev.cc/, tarball: https://registry.npmmirror.com/@floating-ui/react/-/react-0.26.28.tgz}
-    id: registry.npmmirror.com/@floating-ui/react/0.26.28
     name: '@floating-ui/react'
     version: 0.26.28
     peerDependencies:
       react: '>=16.8.0'
       react-dom: '>=16.8.0'
-    dependencies:
-      '@floating-ui/react-dom': registry.npmmirror.com/@floating-ui/react-dom@2.1.2(react-dom@19.0.0)(react@19.0.0)
-      '@floating-ui/utils': registry.npmmirror.com/@floating-ui/utils@0.2.9
-      react: registry.npmmirror.com/react@19.0.0
-      react-dom: registry.npmmirror.com/react-dom@19.0.0(react@19.0.0)
-      tabbable: registry.npmmirror.com/tabbable@6.2.0
-    dev: false
 
-  registry.npmmirror.com/@floating-ui/utils@0.2.9:
+  '@floating-ui/utils@https://registry.npmmirror.com/@floating-ui/utils/-/utils-0.2.9.tgz':
     resolution: {integrity: sha512-MDWhGtE+eHw5JW7lq4qhc5yRLS11ERl1c7Z6Xd0a58DozHES6EnNNwUWbMiG4J9Cgj053Bhk8zvlhFYKVhULwg==, registry: http://registry.npm.faidev.cc/, tarball: https://registry.npmmirror.com/@floating-ui/utils/-/utils-0.2.9.tgz}
     name: '@floating-ui/utils'
     version: 0.2.9
-    dev: false
 
-  registry.npmmirror.com/@mantine/core@7.17.2(@mantine/hooks@7.17.2)(@types/react@19.0.10)(react-dom@19.0.0)(react@19.0.0):
+  '@mantine/core@https://registry.npmmirror.com/@mantine/core/-/core-7.17.2.tgz':
     resolution: {integrity: sha512-R6MYhitJ0JEgrhadd31Nw9FhRaQwDHjXUs5YIlitKH/fTOz9gKSxKjzmNng3bEBQCcbEDOkZj3FRcBgTUh/F0Q==, registry: http://registry.npm.faidev.cc/, tarball: https://registry.npmmirror.com/@mantine/core/-/core-7.17.2.tgz}
-    id: registry.npmmirror.com/@mantine/core/7.17.2
     name: '@mantine/core'
     version: 7.17.2
     peerDependencies:
       '@mantine/hooks': 7.17.2
       react: ^18.x || ^19.x
       react-dom: ^18.x || ^19.x
-    dependencies:
-      '@floating-ui/react': registry.npmmirror.com/@floating-ui/react@0.26.28(react-dom@19.0.0)(react@19.0.0)
-      '@mantine/hooks': registry.npmmirror.com/@mantine/hooks@7.17.2(react@19.0.0)
-      clsx: registry.npmmirror.com/clsx@2.1.1
-      react: registry.npmmirror.com/react@19.0.0
-      react-dom: registry.npmmirror.com/react-dom@19.0.0(react@19.0.0)
-      react-number-format: registry.npmmirror.com/react-number-format@5.4.3(react-dom@19.0.0)(react@19.0.0)
-      react-remove-scroll: registry.npmmirror.com/react-remove-scroll@2.6.3(@types/react@19.0.10)(react@19.0.0)
-      react-textarea-autosize: registry.npmmirror.com/react-textarea-autosize@8.5.6(@types/react@19.0.10)(react@19.0.0)
-      type-fest: registry.npmmirror.com/type-fest@4.37.0
-    transitivePeerDependencies:
-      - '@types/react'
-    dev: false
 
-  registry.npmmirror.com/@mantine/hooks@7.17.2(react@19.0.0):
+  '@mantine/hooks@https://registry.npmmirror.com/@mantine/hooks/-/hooks-7.17.2.tgz':
     resolution: {integrity: sha512-tbErVcGZu0E4dSmE6N0k6Tv1y9R3SQmmQgwqorcc+guEgKMdamc36lucZGlJnSGUmGj+WLUgELkEQ0asdfYBDA==, registry: http://registry.npm.faidev.cc/, tarball: https://registry.npmmirror.com/@mantine/hooks/-/hooks-7.17.2.tgz}
-    id: registry.npmmirror.com/@mantine/hooks/7.17.2
     name: '@mantine/hooks'
     version: 7.17.2
     peerDependencies:
       react: ^18.x || ^19.x
-    dependencies:
-      react: registry.npmmirror.com/react@19.0.0
-    dev: false
 
-  registry.npmmirror.com/@mantinex/mantine-logo@1.1.0(@mantine/core@7.17.2)(@mantine/hooks@7.17.2)(react-dom@19.0.0)(react@19.0.0):
+  '@mantinex/mantine-logo@https://registry.npmmirror.com/@mantinex/mantine-logo/-/mantine-logo-1.1.0.tgz':
     resolution: {integrity: sha512-POR8TKKl7p1uq4nl/DxH3wBW7ShTVEEkzZ9RUkTbwjfuHR/skjaK2to8aETkxmpl/u2vQyxb325WwDKe5Xby5A==, registry: http://registry.npm.faidev.cc/, tarball: https://registry.npmmirror.com/@mantinex/mantine-logo/-/mantine-logo-1.1.0.tgz}
-    id: registry.npmmirror.com/@mantinex/mantine-logo/1.1.0
     name: '@mantinex/mantine-logo'
     version: 1.1.0
     peerDependencies:
@@ -179,223 +140,138 @@ packages:
       '@mantine/hooks': '>=7.0.0'
       react: ^18.x || ^19.x
       react-dom: ^18.x || ^19.x
-    dependencies:
-      '@mantine/core': registry.npmmirror.com/@mantine/core@7.17.2(@mantine/hooks@7.17.2)(@types/react@19.0.10)(react-dom@19.0.0)(react@19.0.0)
-      '@mantine/hooks': registry.npmmirror.com/@mantine/hooks@7.17.2(react@19.0.0)
-      react: registry.npmmirror.com/react@19.0.0
-      react-dom: registry.npmmirror.com/react-dom@19.0.0(react@19.0.0)
-    dev: false
 
-  registry.npmmirror.com/@module-federation/error-codes@0.8.4:
+  '@module-federation/error-codes@https://registry.npmmirror.com/@module-federation/error-codes/-/error-codes-0.8.4.tgz':
     resolution: {integrity: sha512-55LYmrDdKb4jt+qr8qE8U3al62ZANp3FhfVaNPOaAmdTh0jHdD8M3yf5HKFlr5xVkVO4eV/F/J2NCfpbh+pEXQ==, registry: http://registry.npm.faidev.cc/, tarball: https://registry.npmmirror.com/@module-federation/error-codes/-/error-codes-0.8.4.tgz}
     name: '@module-federation/error-codes'
     version: 0.8.4
-    dev: true
 
-  registry.npmmirror.com/@module-federation/runtime-tools@0.8.4:
+  '@module-federation/runtime-tools@https://registry.npmmirror.com/@module-federation/runtime-tools/-/runtime-tools-0.8.4.tgz':
     resolution: {integrity: sha512-fjVOsItJ1u5YY6E9FnS56UDwZgqEQUrWFnouRiPtK123LUuqUI9FH4redZoKWlE1PB0ir1Z3tnqy8eFYzPO38Q==, registry: http://registry.npm.faidev.cc/, tarball: https://registry.npmmirror.com/@module-federation/runtime-tools/-/runtime-tools-0.8.4.tgz}
     name: '@module-federation/runtime-tools'
     version: 0.8.4
-    dependencies:
-      '@module-federation/runtime': registry.npmmirror.com/@module-federation/runtime@0.8.4
-      '@module-federation/webpack-bundler-runtime': registry.npmmirror.com/@module-federation/webpack-bundler-runtime@0.8.4
-    dev: true
 
-  registry.npmmirror.com/@module-federation/runtime@0.8.4:
+  '@module-federation/runtime@https://registry.npmmirror.com/@module-federation/runtime/-/runtime-0.8.4.tgz':
     resolution: {integrity: sha512-yZeZ7z2Rx4gv/0E97oLTF3V6N25vglmwXGgoeju/W2YjsFvWzVtCDI7zRRb0mJhU6+jmSM8jP1DeQGbea/AiZQ==, registry: http://registry.npm.faidev.cc/, tarball: https://registry.npmmirror.com/@module-federation/runtime/-/runtime-0.8.4.tgz}
     name: '@module-federation/runtime'
     version: 0.8.4
-    dependencies:
-      '@module-federation/error-codes': registry.npmmirror.com/@module-federation/error-codes@0.8.4
-      '@module-federation/sdk': registry.npmmirror.com/@module-federation/sdk@0.8.4
-    dev: true
 
-  registry.npmmirror.com/@module-federation/sdk@0.8.4:
+  '@module-federation/sdk@https://registry.npmmirror.com/@module-federation/sdk/-/sdk-0.8.4.tgz':
     resolution: {integrity: sha512-waABomIjg/5m1rPDBWYG4KUhS5r7OUUY7S+avpaVIY/tkPWB3ibRDKy2dNLLAMaLKq0u+B1qIdEp4NIWkqhqpg==, registry: http://registry.npm.faidev.cc/, tarball: https://registry.npmmirror.com/@module-federation/sdk/-/sdk-0.8.4.tgz}
     name: '@module-federation/sdk'
     version: 0.8.4
-    dependencies:
-      isomorphic-rslog: registry.npmmirror.com/isomorphic-rslog@0.0.6
-    dev: true
 
-  registry.npmmirror.com/@module-federation/webpack-bundler-runtime@0.8.4:
+  '@module-federation/webpack-bundler-runtime@https://registry.npmmirror.com/@module-federation/webpack-bundler-runtime/-/webpack-bundler-runtime-0.8.4.tgz':
     resolution: {integrity: sha512-HggROJhvHPUX7uqBD/XlajGygMNM1DG0+4OAkk8MBQe4a18QzrRNzZt6XQbRTSG4OaEoyRWhQHvYD3Yps405tQ==, registry: http://registry.npm.faidev.cc/, tarball: https://registry.npmmirror.com/@module-federation/webpack-bundler-runtime/-/webpack-bundler-runtime-0.8.4.tgz}
     name: '@module-federation/webpack-bundler-runtime'
     version: 0.8.4
-    dependencies:
-      '@module-federation/runtime': registry.npmmirror.com/@module-federation/runtime@0.8.4
-      '@module-federation/sdk': registry.npmmirror.com/@module-federation/sdk@0.8.4
-    dev: true
 
-  registry.npmmirror.com/@nodelib/fs.scandir@2.1.5:
+  '@nodelib/fs.scandir@https://registry.npmmirror.com/@nodelib/fs.scandir/-/fs.scandir-2.1.5.tgz':
     resolution: {integrity: sha512-vq24Bq3ym5HEQm2NKCr3yXDwjc7vTsEThRDnkp2DK9p1uqLR+DHurm/NOTo0KG7HYHU7eppKZj3MyqYuMBf62g==, registry: http://registry.npm.faidev.cc/, tarball: https://registry.npmmirror.com/@nodelib/fs.scandir/-/fs.scandir-2.1.5.tgz}
     name: '@nodelib/fs.scandir'
     version: 2.1.5
     engines: {node: '>= 8'}
-    dependencies:
-      '@nodelib/fs.stat': registry.npmmirror.com/@nodelib/fs.stat@2.0.5
-      run-parallel: registry.npmmirror.com/run-parallel@1.2.0
-    dev: true
 
-  registry.npmmirror.com/@nodelib/fs.stat@2.0.5:
+  '@nodelib/fs.stat@https://registry.npmmirror.com/@nodelib/fs.stat/-/fs.stat-2.0.5.tgz':
     resolution: {integrity: sha512-RkhPPp2zrqDAQA/2jNhnztcPAlv64XdhIp7a7454A5ovI7Bukxgt7MX7udwAu3zg1DcpPU0rz3VV1SeaqvY4+A==, registry: http://registry.npm.faidev.cc/, tarball: https://registry.npmmirror.com/@nodelib/fs.stat/-/fs.stat-2.0.5.tgz}
     name: '@nodelib/fs.stat'
     version: 2.0.5
     engines: {node: '>= 8'}
-    dev: true
 
-  registry.npmmirror.com/@nodelib/fs.walk@1.2.8:
+  '@nodelib/fs.walk@https://registry.npmmirror.com/@nodelib/fs.walk/-/fs.walk-1.2.8.tgz':
     resolution: {integrity: sha512-oGB+UxlgWcgQkgwo8GcEGwemoTFt3FIO9ababBmaGwXIoBKZ+GTy0pP185beGg7Llih/NSHSV2XAs1lnznocSg==, registry: http://registry.npm.faidev.cc/, tarball: https://registry.npmmirror.com/@nodelib/fs.walk/-/fs.walk-1.2.8.tgz}
     name: '@nodelib/fs.walk'
     version: 1.2.8
     engines: {node: '>= 8'}
-    dependencies:
-      '@nodelib/fs.scandir': registry.npmmirror.com/@nodelib/fs.scandir@2.1.5
-      fastq: registry.npmmirror.com/fastq@1.19.1
-    dev: true
 
-  registry.npmmirror.com/@rsbuild/core@1.2.16:
+  '@rsbuild/core@https://registry.npmmirror.com/@rsbuild/core/-/core-1.2.16.tgz':
     resolution: {integrity: sha512-LxiZUTKhg3ZHFIeZkDmrOG8pWn/lny4vx0AqtSxovWPDnFHgYeuL45rAGDfkrx4TuGwwDN3qJgbetPRSYA8cWw==, registry: http://registry.npm.faidev.cc/, tarball: https://registry.npmmirror.com/@rsbuild/core/-/core-1.2.16.tgz}
     name: '@rsbuild/core'
     version: 1.2.16
     engines: {node: '>=16.7.0'}
     hasBin: true
-    dependencies:
-      '@rspack/core': registry.npmmirror.com/@rspack/core@1.2.7(@swc/helpers@0.5.15)
-      '@rspack/lite-tapable': registry.npmmirror.com/@rspack/lite-tapable@1.0.1
-      '@swc/helpers': registry.npmmirror.com/@swc/helpers@0.5.15
-      core-js: registry.npmmirror.com/core-js@3.41.0
-      jiti: registry.npmmirror.com/jiti@2.4.2
-    transitivePeerDependencies:
-      - '@rspack/tracing'
-    dev: true
 
-  registry.npmmirror.com/@rsbuild/plugin-react@1.1.1(@rsbuild/core@1.2.16):
+  '@rsbuild/plugin-react@https://registry.npmmirror.com/@rsbuild/plugin-react/-/plugin-react-1.1.1.tgz':
     resolution: {integrity: sha512-gkATKrOQauXMMtrYA5jbTQkhmYTE0VXoknPLtVpiXtwDbBUwgX23LFf1XJ51YOwqYpP7g5SfPEMgD2FENtCq0A==, registry: http://registry.npm.faidev.cc/, tarball: https://registry.npmmirror.com/@rsbuild/plugin-react/-/plugin-react-1.1.1.tgz}
-    id: registry.npmmirror.com/@rsbuild/plugin-react/1.1.1
     name: '@rsbuild/plugin-react'
     version: 1.1.1
     peerDependencies:
       '@rsbuild/core': 1.x
-    dependencies:
-      '@rsbuild/core': registry.npmmirror.com/@rsbuild/core@1.2.16
-      '@rspack/plugin-react-refresh': registry.npmmirror.com/@rspack/plugin-react-refresh@1.0.1(react-refresh@0.16.0)
-      react-refresh: registry.npmmirror.com/react-refresh@0.16.0
-    dev: true
 
-  registry.npmmirror.com/@rspack/binding-darwin-arm64@1.2.7:
+  '@rspack/binding-darwin-arm64@https://registry.npmmirror.com/@rspack/binding-darwin-arm64/-/binding-darwin-arm64-1.2.7.tgz':
     resolution: {integrity: sha512-dT5eSMTknZaI8Djmz8KnaWM68rjZuBZwsKyF144o+ZSJM55vgiNXyL0lQYB8mX9nR3Gck+jKuGUAT2W/EF/t5Q==, registry: http://registry.npm.faidev.cc/, tarball: https://registry.npmmirror.com/@rspack/binding-darwin-arm64/-/binding-darwin-arm64-1.2.7.tgz}
     name: '@rspack/binding-darwin-arm64'
     version: 1.2.7
     cpu: [arm64]
     os: [darwin]
-    requiresBuild: true
-    dev: true
-    optional: true
 
-  registry.npmmirror.com/@rspack/binding-darwin-x64@1.2.7:
+  '@rspack/binding-darwin-x64@https://registry.npmmirror.com/@rspack/binding-darwin-x64/-/binding-darwin-x64-1.2.7.tgz':
     resolution: {integrity: sha512-5n8IhKBxH71d4BUIvyzTwSOAOKNneLPJwLIphSPNIbCMGjLI59/EVpxSQ/AAUfyMkqOs635NNCn0eGQVuzpI/w==, registry: http://registry.npm.faidev.cc/, tarball: https://registry.npmmirror.com/@rspack/binding-darwin-x64/-/binding-darwin-x64-1.2.7.tgz}
     name: '@rspack/binding-darwin-x64'
     version: 1.2.7
     cpu: [x64]
     os: [darwin]
-    requiresBuild: true
-    dev: true
-    optional: true
 
-  registry.npmmirror.com/@rspack/binding-linux-arm64-gnu@1.2.7:
+  '@rspack/binding-linux-arm64-gnu@https://registry.npmmirror.com/@rspack/binding-linux-arm64-gnu/-/binding-linux-arm64-gnu-1.2.7.tgz':
     resolution: {integrity: sha512-DTtFBJmgQQrVWjbklpgJDr3kE9Uf1fHsPh+1GVslsBuyn+o4O7JslrnjuVsQCYKoiEg0Lg4ZPQmwnhJLHssZ5A==, registry: http://registry.npm.faidev.cc/, tarball: https://registry.npmmirror.com/@rspack/binding-linux-arm64-gnu/-/binding-linux-arm64-gnu-1.2.7.tgz}
     name: '@rspack/binding-linux-arm64-gnu'
     version: 1.2.7
     cpu: [arm64]
     os: [linux]
     libc: [glibc]
-    requiresBuild: true
-    dev: true
-    optional: true
 
-  registry.npmmirror.com/@rspack/binding-linux-arm64-musl@1.2.7:
+  '@rspack/binding-linux-arm64-musl@https://registry.npmmirror.com/@rspack/binding-linux-arm64-musl/-/binding-linux-arm64-musl-1.2.7.tgz':
     resolution: {integrity: sha512-01/OoQQF9eyDvRKkxj4DzCznfGZIvnzI8qOsrv+M7VBm8FLoKpb3hygXixaGQOXmNL42XTh61qjgm++fBu6aUA==, registry: http://registry.npm.faidev.cc/, tarball: https://registry.npmmirror.com/@rspack/binding-linux-arm64-musl/-/binding-linux-arm64-musl-1.2.7.tgz}
     name: '@rspack/binding-linux-arm64-musl'
     version: 1.2.7
     cpu: [arm64]
     os: [linux]
     libc: [musl]
-    requiresBuild: true
-    dev: true
-    optional: true
 
-  registry.npmmirror.com/@rspack/binding-linux-x64-gnu@1.2.7:
+  '@rspack/binding-linux-x64-gnu@https://registry.npmmirror.com/@rspack/binding-linux-x64-gnu/-/binding-linux-x64-gnu-1.2.7.tgz':
     resolution: {integrity: sha512-lUOAUq0YSsofCXsP6XnlgfH0ZRDZ2X2XqXLXYjqf4xkSxCl5eBmE0EQYjAHF4zjUvU5rVx4a4bDLWv7+t3bOHg==, registry: http://registry.npm.faidev.cc/, tarball: https://registry.npmmirror.com/@rspack/binding-linux-x64-gnu/-/binding-linux-x64-gnu-1.2.7.tgz}
     name: '@rspack/binding-linux-x64-gnu'
     version: 1.2.7
     cpu: [x64]
     os: [linux]
     libc: [glibc]
-    requiresBuild: true
-    dev: true
-    optional: true
 
-  registry.npmmirror.com/@rspack/binding-linux-x64-musl@1.2.7:
+  '@rspack/binding-linux-x64-musl@https://registry.npmmirror.com/@rspack/binding-linux-x64-musl/-/binding-linux-x64-musl-1.2.7.tgz':
     resolution: {integrity: sha512-ZrPXfgT30p4DlydYavaTHiluxHkWvZHt7K4q7qNyTfYYowG6jRGwWi/PATdugNICGv027Wsh5nzEO4o27Iuhwg==, registry: http://registry.npm.faidev.cc/, tarball: https://registry.npmmirror.com/@rspack/binding-linux-x64-musl/-/binding-linux-x64-musl-1.2.7.tgz}
     name: '@rspack/binding-linux-x64-musl'
     version: 1.2.7
     cpu: [x64]
     os: [linux]
     libc: [musl]
-    requiresBuild: true
-    dev: true
-    optional: true
 
-  registry.npmmirror.com/@rspack/binding-win32-arm64-msvc@1.2.7:
+  '@rspack/binding-win32-arm64-msvc@https://registry.npmmirror.com/@rspack/binding-win32-arm64-msvc/-/binding-win32-arm64-msvc-1.2.7.tgz':
     resolution: {integrity: sha512-1OzzM+OUSWX39XYcDfxJ8bGX5vNNrRejCMGotBEdP+uQ3KMWCPz0G4KRc3QIjghaLIYk3ofd83hcfUxyk/2Xog==, registry: http://registry.npm.faidev.cc/, tarball: https://registry.npmmirror.com/@rspack/binding-win32-arm64-msvc/-/binding-win32-arm64-msvc-1.2.7.tgz}
     name: '@rspack/binding-win32-arm64-msvc'
     version: 1.2.7
     cpu: [arm64]
     os: [win32]
-    requiresBuild: true
-    dev: true
-    optional: true
 
-  registry.npmmirror.com/@rspack/binding-win32-ia32-msvc@1.2.7:
+  '@rspack/binding-win32-ia32-msvc@https://registry.npmmirror.com/@rspack/binding-win32-ia32-msvc/-/binding-win32-ia32-msvc-1.2.7.tgz':
     resolution: {integrity: sha512-VWlDCV9kDtijk9GK6ZtBQmYoVzKGpnrJB0iI3d2gIEa/2NwikJ89bLMFE4dFx8UNH3p/sSyb5pmPOQnbudFK7Q==, registry: http://registry.npm.faidev.cc/, tarball: https://registry.npmmirror.com/@rspack/binding-win32-ia32-msvc/-/binding-win32-ia32-msvc-1.2.7.tgz}
     name: '@rspack/binding-win32-ia32-msvc'
     version: 1.2.7
     cpu: [ia32]
     os: [win32]
-    requiresBuild: true
-    dev: true
-    optional: true
 
-  registry.npmmirror.com/@rspack/binding-win32-x64-msvc@1.2.7:
+  '@rspack/binding-win32-x64-msvc@https://registry.npmmirror.com/@rspack/binding-win32-x64-msvc/-/binding-win32-x64-msvc-1.2.7.tgz':
     resolution: {integrity: sha512-l/sTdeMsQF1a1aB79cWykDNRZG6nkUA0biJo2/sEARP3ijdr8TuwUdirp2JRDmZfQJkoJnQ2un9y9qyW+TIZzA==, registry: http://registry.npm.faidev.cc/, tarball: https://registry.npmmirror.com/@rspack/binding-win32-x64-msvc/-/binding-win32-x64-msvc-1.2.7.tgz}
     name: '@rspack/binding-win32-x64-msvc'
     version: 1.2.7
     cpu: [x64]
     os: [win32]
-    requiresBuild: true
-    dev: true
-    optional: true
 
-  registry.npmmirror.com/@rspack/binding@1.2.7:
+  '@rspack/binding@https://registry.npmmirror.com/@rspack/binding/-/binding-1.2.7.tgz':
     resolution: {integrity: sha512-QH+kxkG0I9C6lmlwgBUDFsy24ihXMGG5lfiNtQilk4CyBN+AgSWFENcYrnkUaBioZAvMBznQLiccV3X0JeH9iQ==, registry: http://registry.npm.faidev.cc/, tarball: https://registry.npmmirror.com/@rspack/binding/-/binding-1.2.7.tgz}
     name: '@rspack/binding'
     version: 1.2.7
-    optionalDependencies:
-      '@rspack/binding-darwin-arm64': registry.npmmirror.com/@rspack/binding-darwin-arm64@1.2.7
-      '@rspack/binding-darwin-x64': registry.npmmirror.com/@rspack/binding-darwin-x64@1.2.7
-      '@rspack/binding-linux-arm64-gnu': registry.npmmirror.com/@rspack/binding-linux-arm64-gnu@1.2.7
-      '@rspack/binding-linux-arm64-musl': registry.npmmirror.com/@rspack/binding-linux-arm64-musl@1.2.7
-      '@rspack/binding-linux-x64-gnu': registry.npmmirror.com/@rspack/binding-linux-x64-gnu@1.2.7
-      '@rspack/binding-linux-x64-musl': registry.npmmirror.com/@rspack/binding-linux-x64-musl@1.2.7
-      '@rspack/binding-win32-arm64-msvc': registry.npmmirror.com/@rspack/binding-win32-arm64-msvc@1.2.7
-      '@rspack/binding-win32-ia32-msvc': registry.npmmirror.com/@rspack/binding-win32-ia32-msvc@1.2.7
-      '@rspack/binding-win32-x64-msvc': registry.npmmirror.com/@rspack/binding-win32-x64-msvc@1.2.7
-    dev: true
 
-  registry.npmmirror.com/@rspack/core@1.2.7(@swc/helpers@0.5.15):
+  '@rspack/core@https://registry.npmmirror.com/@rspack/core/-/core-1.2.7.tgz':
     resolution: {integrity: sha512-Vg7ySflnqI1nNOBPd6VJkQozWADssxn3einbxa9OqDVAB+dGSj8qihTs6rlaTSewidoaYTGIAiTMHO2y+61qqQ==, registry: http://registry.npm.faidev.cc/, tarball: https://registry.npmmirror.com/@rspack/core/-/core-1.2.7.tgz}
-    id: registry.npmmirror.com/@rspack/core/1.2.7
     name: '@rspack/core'
     version: 1.2.7
     engines: {node: '>=16.0.0'}
@@ -407,24 +283,15 @@ packages:
         optional: true
       '@swc/helpers':
         optional: true
-    dependencies:
-      '@module-federation/runtime-tools': registry.npmmirror.com/@module-federation/runtime-tools@0.8.4
-      '@rspack/binding': registry.npmmirror.com/@rspack/binding@1.2.7
-      '@rspack/lite-tapable': registry.npmmirror.com/@rspack/lite-tapable@1.0.1
-      '@swc/helpers': registry.npmmirror.com/@swc/helpers@0.5.15
-      caniuse-lite: registry.npmmirror.com/caniuse-lite@1.0.30001706
-    dev: true
 
-  registry.npmmirror.com/@rspack/lite-tapable@1.0.1:
+  '@rspack/lite-tapable@https://registry.npmmirror.com/@rspack/lite-tapable/-/lite-tapable-1.0.1.tgz':
     resolution: {integrity: sha512-VynGOEsVw2s8TAlLf/uESfrgfrq2+rcXB1muPJYBWbsm1Oa6r5qVQhjA5ggM6z/coYPrsVMgovl3Ff7Q7OCp1w==, registry: http://registry.npm.faidev.cc/, tarball: https://registry.npmmirror.com/@rspack/lite-tapable/-/lite-tapable-1.0.1.tgz}
     name: '@rspack/lite-tapable'
     version: 1.0.1
     engines: {node: '>=16.0.0'}
-    dev: true
 
-  registry.npmmirror.com/@rspack/plugin-react-refresh@1.0.1(react-refresh@0.16.0):
+  '@rspack/plugin-react-refresh@https://registry.npmmirror.com/@rspack/plugin-react-refresh/-/plugin-react-refresh-1.0.1.tgz':
     resolution: {integrity: sha512-KSBc3bsr3mrAPViv7w9MpE9KEWm6q87EyRXyHlRfJ9PpQ56NbX9KZ7AXo7jPeECb0q5sfpM2PSEf+syBiMgLSw==, registry: http://registry.npm.faidev.cc/, tarball: https://registry.npmmirror.com/@rspack/plugin-react-refresh/-/plugin-react-refresh-1.0.1.tgz}
-    id: registry.npmmirror.com/@rspack/plugin-react-refresh/1.0.1
     name: '@rspack/plugin-react-refresh'
     version: 1.0.1
     peerDependencies:
@@ -432,86 +299,58 @@ packages:
     peerDependenciesMeta:
       react-refresh:
         optional: true
-    dependencies:
-      error-stack-parser: registry.npmmirror.com/error-stack-parser@2.1.4
-      html-entities: registry.npmmirror.com/html-entities@2.5.2
-      react-refresh: registry.npmmirror.com/react-refresh@0.16.0
-    dev: true
 
-  registry.npmmirror.com/@swc/helpers@0.5.15:
+  '@swc/helpers@https://registry.npmmirror.com/@swc/helpers/-/helpers-0.5.15.tgz':
     resolution: {integrity: sha512-JQ5TuMi45Owi4/BIMAJBoSQoOJu12oOk/gADqlcUL9JEdHB8vyjUSsxqeNXnmXHjYKMi2WcYtezGEEhqUI/E2g==, registry: http://registry.npm.faidev.cc/, tarball: https://registry.npmmirror.com/@swc/helpers/-/helpers-0.5.15.tgz}
     name: '@swc/helpers'
     version: 0.5.15
-    dependencies:
-      tslib: registry.npmmirror.com/tslib@2.8.1
-    dev: true
 
-  registry.npmmirror.com/@tailwindcss/node@4.0.14:
+  '@tailwindcss/node@https://registry.npmmirror.com/@tailwindcss/node/-/node-4.0.14.tgz':
     resolution: {integrity: sha512-Ux9NbFkKWYE4rfUFz6M5JFLs/GEYP6ysxT8uSyPn6aTbh2K3xDE1zz++eVK4Vwx799fzMF8CID9sdHn4j/Ab8w==, registry: http://registry.npm.faidev.cc/, tarball: https://registry.npmmirror.com/@tailwindcss/node/-/node-4.0.14.tgz}
     name: '@tailwindcss/node'
     version: 4.0.14
-    dependencies:
-      enhanced-resolve: registry.npmmirror.com/enhanced-resolve@5.18.1
-      jiti: registry.npmmirror.com/jiti@2.4.2
-      tailwindcss: registry.npmmirror.com/tailwindcss@4.0.14
-    dev: true
 
-  registry.npmmirror.com/@tailwindcss/oxide-android-arm64@4.0.14:
+  '@tailwindcss/oxide-android-arm64@https://registry.npmmirror.com/@tailwindcss/oxide-android-arm64/-/oxide-android-arm64-4.0.14.tgz':
     resolution: {integrity: sha512-VBFKC2rFyfJ5J8lRwjy6ub3rgpY186kAcYgiUr8ArR8BAZzMruyeKJ6mlsD22Zp5ZLcPW/FXMasJiJBx0WsdQg==, registry: http://registry.npm.faidev.cc/, tarball: https://registry.npmmirror.com/@tailwindcss/oxide-android-arm64/-/oxide-android-arm64-4.0.14.tgz}
     name: '@tailwindcss/oxide-android-arm64'
     version: 4.0.14
     engines: {node: '>= 10'}
     cpu: [arm64]
     os: [android]
-    requiresBuild: true
-    dev: true
-    optional: true
 
-  registry.npmmirror.com/@tailwindcss/oxide-darwin-arm64@4.0.14:
+  '@tailwindcss/oxide-darwin-arm64@https://registry.npmmirror.com/@tailwindcss/oxide-darwin-arm64/-/oxide-darwin-arm64-4.0.14.tgz':
     resolution: {integrity: sha512-U3XOwLrefGr2YQZ9DXasDSNWGPZBCh8F62+AExBEDMLDfvLLgI/HDzY8Oq8p/JtqkAY38sWPOaNnRwEGKU5Zmg==, registry: http://registry.npm.faidev.cc/, tarball: https://registry.npmmirror.com/@tailwindcss/oxide-darwin-arm64/-/oxide-darwin-arm64-4.0.14.tgz}
     name: '@tailwindcss/oxide-darwin-arm64'
     version: 4.0.14
     engines: {node: '>= 10'}
     cpu: [arm64]
     os: [darwin]
-    requiresBuild: true
-    dev: true
-    optional: true
 
-  registry.npmmirror.com/@tailwindcss/oxide-darwin-x64@4.0.14:
+  '@tailwindcss/oxide-darwin-x64@https://registry.npmmirror.com/@tailwindcss/oxide-darwin-x64/-/oxide-darwin-x64-4.0.14.tgz':
     resolution: {integrity: sha512-V5AjFuc3ndWGnOi1d379UsODb0TzAS2DYIP/lwEbfvafUaD2aNZIcbwJtYu2DQqO2+s/XBvDVA+w4yUyaewRwg==, registry: http://registry.npm.faidev.cc/, tarball: https://registry.npmmirror.com/@tailwindcss/oxide-darwin-x64/-/oxide-darwin-x64-4.0.14.tgz}
     name: '@tailwindcss/oxide-darwin-x64'
     version: 4.0.14
     engines: {node: '>= 10'}
     cpu: [x64]
     os: [darwin]
-    requiresBuild: true
-    dev: true
-    optional: true
 
-  registry.npmmirror.com/@tailwindcss/oxide-freebsd-x64@4.0.14:
+  '@tailwindcss/oxide-freebsd-x64@https://registry.npmmirror.com/@tailwindcss/oxide-freebsd-x64/-/oxide-freebsd-x64-4.0.14.tgz':
     resolution: {integrity: sha512-tXvtxbaZfcPfqBwW3f53lTcyH6EDT+1eT7yabwcfcxTs+8yTPqxsDUhrqe9MrnEzpNkd+R/QAjJapfd4tjWdLg==, registry: http://registry.npm.faidev.cc/, tarball: https://registry.npmmirror.com/@tailwindcss/oxide-freebsd-x64/-/oxide-freebsd-x64-4.0.14.tgz}
     name: '@tailwindcss/oxide-freebsd-x64'
     version: 4.0.14
     engines: {node: '>= 10'}
     cpu: [x64]
     os: [freebsd]
-    requiresBuild: true
-    dev: true
-    optional: true
 
-  registry.npmmirror.com/@tailwindcss/oxide-linux-arm-gnueabihf@4.0.14:
+  '@tailwindcss/oxide-linux-arm-gnueabihf@https://registry.npmmirror.com/@tailwindcss/oxide-linux-arm-gnueabihf/-/oxide-linux-arm-gnueabihf-4.0.14.tgz':
     resolution: {integrity: sha512-cSeLNWWqIWeSTmBntQvyY2/2gcLX8rkPFfDDTQVF8qbRcRMVPLxBvFVJyfSAYRNch6ZyVH2GI6dtgALOBDpdNA==, registry: http://registry.npm.faidev.cc/, tarball: https://registry.npmmirror.com/@tailwindcss/oxide-linux-arm-gnueabihf/-/oxide-linux-arm-gnueabihf-4.0.14.tgz}
     name: '@tailwindcss/oxide-linux-arm-gnueabihf'
     version: 4.0.14
     engines: {node: '>= 10'}
     cpu: [arm]
     os: [linux]
-    requiresBuild: true
-    dev: true
-    optional: true
 
-  registry.npmmirror.com/@tailwindcss/oxide-linux-arm64-gnu@4.0.14:
+  '@tailwindcss/oxide-linux-arm64-gnu@https://registry.npmmirror.com/@tailwindcss/oxide-linux-arm64-gnu/-/oxide-linux-arm64-gnu-4.0.14.tgz':
     resolution: {integrity: sha512-bwDWLBalXFMDItcSXzFk6y7QKvj6oFlaY9vM+agTlwFL1n1OhDHYLZkSjaYsh6KCeG0VB0r7H8PUJVOM1LRZyg==, registry: http://registry.npm.faidev.cc/, tarball: https://registry.npmmirror.com/@tailwindcss/oxide-linux-arm64-gnu/-/oxide-linux-arm64-gnu-4.0.14.tgz}
     name: '@tailwindcss/oxide-linux-arm64-gnu'
     version: 4.0.14
@@ -519,11 +358,8 @@ packages:
     cpu: [arm64]
     os: [linux]
     libc: [glibc]
-    requiresBuild: true
-    dev: true
-    optional: true
 
-  registry.npmmirror.com/@tailwindcss/oxide-linux-arm64-musl@4.0.14:
+  '@tailwindcss/oxide-linux-arm64-musl@https://registry.npmmirror.com/@tailwindcss/oxide-linux-arm64-musl/-/oxide-linux-arm64-musl-4.0.14.tgz':
     resolution: {integrity: sha512-gVkJdnR/L6iIcGYXx64HGJRmlme2FGr/aZH0W6u4A3RgPMAb+6ELRLi+UBiH83RXBm9vwCfkIC/q8T51h8vUJQ==, registry: http://registry.npm.faidev.cc/, tarball: https://registry.npmmirror.com/@tailwindcss/oxide-linux-arm64-musl/-/oxide-linux-arm64-musl-4.0.14.tgz}
     name: '@tailwindcss/oxide-linux-arm64-musl'
     version: 4.0.14
@@ -531,11 +367,8 @@ packages:
     cpu: [arm64]
     os: [linux]
     libc: [musl]
-    requiresBuild: true
-    dev: true
-    optional: true
 
-  registry.npmmirror.com/@tailwindcss/oxide-linux-x64-gnu@4.0.14:
+  '@tailwindcss/oxide-linux-x64-gnu@https://registry.npmmirror.com/@tailwindcss/oxide-linux-x64-gnu/-/oxide-linux-x64-gnu-4.0.14.tgz':
     resolution: {integrity: sha512-EE+EQ+c6tTpzsg+LGO1uuusjXxYx0Q00JE5ubcIGfsogSKth8n8i2BcS2wYTQe4jXGs+BQs35l78BIPzgwLddw==, registry: http://registry.npm.faidev.cc/, tarball: https://registry.npmmirror.com/@tailwindcss/oxide-linux-x64-gnu/-/oxide-linux-x64-gnu-4.0.14.tgz}
     name: '@tailwindcss/oxide-linux-x64-gnu'
     version: 4.0.14
@@ -543,11 +376,8 @@ packages:
     cpu: [x64]
     os: [linux]
     libc: [glibc]
-    requiresBuild: true
-    dev: true
-    optional: true
 
-  registry.npmmirror.com/@tailwindcss/oxide-linux-x64-musl@4.0.14:
+  '@tailwindcss/oxide-linux-x64-musl@https://registry.npmmirror.com/@tailwindcss/oxide-linux-x64-musl/-/oxide-linux-x64-musl-4.0.14.tgz':
     resolution: {integrity: sha512-KCCOzo+L6XPT0oUp2Jwh233ETRQ/F6cwUnMnR0FvMUCbkDAzHbcyOgpfuAtRa5HD0WbTbH4pVD+S0pn1EhNfbw==, registry: http://registry.npm.faidev.cc/, tarball: https://registry.npmmirror.com/@tailwindcss/oxide-linux-x64-musl/-/oxide-linux-x64-musl-4.0.14.tgz}
     name: '@tailwindcss/oxide-linux-x64-musl'
     version: 4.0.14
@@ -555,353 +385,245 @@ packages:
     cpu: [x64]
     os: [linux]
     libc: [musl]
-    requiresBuild: true
-    dev: true
-    optional: true
 
-  registry.npmmirror.com/@tailwindcss/oxide-win32-arm64-msvc@4.0.14:
+  '@tailwindcss/oxide-win32-arm64-msvc@https://registry.npmmirror.com/@tailwindcss/oxide-win32-arm64-msvc/-/oxide-win32-arm64-msvc-4.0.14.tgz':
     resolution: {integrity: sha512-AHObFiFL9lNYcm3tZSPqa/cHGpM5wOrNmM2uOMoKppp+0Hom5uuyRh0QkOp7jftsHZdrZUpmoz0Mp6vhh2XtUg==, registry: http://registry.npm.faidev.cc/, tarball: https://registry.npmmirror.com/@tailwindcss/oxide-win32-arm64-msvc/-/oxide-win32-arm64-msvc-4.0.14.tgz}
     name: '@tailwindcss/oxide-win32-arm64-msvc'
     version: 4.0.14
     engines: {node: '>= 10'}
     cpu: [arm64]
     os: [win32]
-    requiresBuild: true
-    dev: true
-    optional: true
 
-  registry.npmmirror.com/@tailwindcss/oxide-win32-x64-msvc@4.0.14:
+  '@tailwindcss/oxide-win32-x64-msvc@https://registry.npmmirror.com/@tailwindcss/oxide-win32-x64-msvc/-/oxide-win32-x64-msvc-4.0.14.tgz':
     resolution: {integrity: sha512-rNXXMDJfCJLw/ZaFTOLOHoGULxyXfh2iXTGiChFiYTSgKBKQHIGEpV0yn5N25WGzJJ+VBnRjHzlmDqRV+d//oQ==, registry: http://registry.npm.faidev.cc/, tarball: https://registry.npmmirror.com/@tailwindcss/oxide-win32-x64-msvc/-/oxide-win32-x64-msvc-4.0.14.tgz}
     name: '@tailwindcss/oxide-win32-x64-msvc'
     version: 4.0.14
     engines: {node: '>= 10'}
     cpu: [x64]
     os: [win32]
-    requiresBuild: true
-    dev: true
-    optional: true
 
-  registry.npmmirror.com/@tailwindcss/oxide@4.0.14:
+  '@tailwindcss/oxide@https://registry.npmmirror.com/@tailwindcss/oxide/-/oxide-4.0.14.tgz':
     resolution: {integrity: sha512-M8VCNyO/NBi5vJ2cRcI9u8w7Si+i76a7o1vveoGtbbjpEYJZYiyc7f2VGps/DqawO56l3tImIbq2OT/533jcrA==, registry: http://registry.npm.faidev.cc/, tarball: https://registry.npmmirror.com/@tailwindcss/oxide/-/oxide-4.0.14.tgz}
     name: '@tailwindcss/oxide'
     version: 4.0.14
     engines: {node: '>= 10'}
-    optionalDependencies:
-      '@tailwindcss/oxide-android-arm64': registry.npmmirror.com/@tailwindcss/oxide-android-arm64@4.0.14
-      '@tailwindcss/oxide-darwin-arm64': registry.npmmirror.com/@tailwindcss/oxide-darwin-arm64@4.0.14
-      '@tailwindcss/oxide-darwin-x64': registry.npmmirror.com/@tailwindcss/oxide-darwin-x64@4.0.14
-      '@tailwindcss/oxide-freebsd-x64': registry.npmmirror.com/@tailwindcss/oxide-freebsd-x64@4.0.14
-      '@tailwindcss/oxide-linux-arm-gnueabihf': registry.npmmirror.com/@tailwindcss/oxide-linux-arm-gnueabihf@4.0.14
-      '@tailwindcss/oxide-linux-arm64-gnu': registry.npmmirror.com/@tailwindcss/oxide-linux-arm64-gnu@4.0.14
-      '@tailwindcss/oxide-linux-arm64-musl': registry.npmmirror.com/@tailwindcss/oxide-linux-arm64-musl@4.0.14
-      '@tailwindcss/oxide-linux-x64-gnu': registry.npmmirror.com/@tailwindcss/oxide-linux-x64-gnu@4.0.14
-      '@tailwindcss/oxide-linux-x64-musl': registry.npmmirror.com/@tailwindcss/oxide-linux-x64-musl@4.0.14
-      '@tailwindcss/oxide-win32-arm64-msvc': registry.npmmirror.com/@tailwindcss/oxide-win32-arm64-msvc@4.0.14
-      '@tailwindcss/oxide-win32-x64-msvc': registry.npmmirror.com/@tailwindcss/oxide-win32-x64-msvc@4.0.14
-    dev: true
 
-  registry.npmmirror.com/@tailwindcss/postcss@4.0.14:
+  '@tailwindcss/postcss@https://registry.npmmirror.com/@tailwindcss/postcss/-/postcss-4.0.14.tgz':
     resolution: {integrity: sha512-+uIR6KtKhla1XeIanF27KtrfYy+PX+R679v5LxbkmEZlhQe3g8rk+wKj7Xgt++rWGRuFLGMXY80Ek8JNn+kN/g==, registry: http://registry.npm.faidev.cc/, tarball: https://registry.npmmirror.com/@tailwindcss/postcss/-/postcss-4.0.14.tgz}
     name: '@tailwindcss/postcss'
     version: 4.0.14
-    dependencies:
-      '@alloc/quick-lru': registry.npmmirror.com/@alloc/quick-lru@5.2.0
-      '@tailwindcss/node': registry.npmmirror.com/@tailwindcss/node@4.0.14
-      '@tailwindcss/oxide': registry.npmmirror.com/@tailwindcss/oxide@4.0.14
-      lightningcss: registry.npmmirror.com/lightningcss@1.29.2
-      postcss: registry.npmmirror.com/postcss@8.5.3
-      tailwindcss: registry.npmmirror.com/tailwindcss@4.0.14
-    dev: true
 
-  registry.npmmirror.com/@tweenjs/tween.js@23.1.3:
+  '@tweenjs/tween.js@https://registry.npmmirror.com/@tweenjs/tween.js/-/tween.js-23.1.3.tgz':
     resolution: {integrity: sha512-vJmvvwFxYuGnF2axRtPYocag6Clbb5YS7kLL+SO/TeVFzHqDIWrNKYtcsPMibjDx9O+bu+psAy9NKfWklassUA==, registry: http://registry.npm.faidev.cc/, tarball: https://registry.npmmirror.com/@tweenjs/tween.js/-/tween.js-23.1.3.tgz}
     name: '@tweenjs/tween.js'
     version: 23.1.3
-    dev: true
 
-  registry.npmmirror.com/@types/node@22.13.10:
+  '@types/node@https://registry.npmmirror.com/@types/node/-/node-22.13.10.tgz':
     resolution: {integrity: sha512-I6LPUvlRH+O6VRUqYOcMudhaIdUVWfsjnZavnsraHvpBwaEyMN29ry+0UVJhImYL16xsscu0aske3yA+uPOWfw==, registry: http://registry.npm.faidev.cc/, tarball: https://registry.npmmirror.com/@types/node/-/node-22.13.10.tgz}
     name: '@types/node'
     version: 22.13.10
-    dependencies:
-      undici-types: registry.npmmirror.com/undici-types@6.20.0
-    dev: true
 
-  registry.npmmirror.com/@types/react-dom@19.0.4(@types/react@19.0.10):
+  '@types/react-dom@https://registry.npmmirror.com/@types/react-dom/-/react-dom-19.0.4.tgz':
     resolution: {integrity: sha512-4fSQ8vWFkg+TGhePfUzVmat3eC14TXYSsiiDSLI0dVLsrm9gZFABjPy/Qu6TKgl1tq1Bu1yDsuQgY3A3DOjCcg==, registry: http://registry.npm.faidev.cc/, tarball: https://registry.npmmirror.com/@types/react-dom/-/react-dom-19.0.4.tgz}
-    id: registry.npmmirror.com/@types/react-dom/19.0.4
     name: '@types/react-dom'
     version: 19.0.4
     peerDependencies:
       '@types/react': ^19.0.0
-    dependencies:
-      '@types/react': registry.npmmirror.com/@types/react@19.0.10
-    dev: true
 
-  registry.npmmirror.com/@types/react@19.0.10:
+  '@types/react@https://registry.npmmirror.com/@types/react/-/react-19.0.10.tgz':
     resolution: {integrity: sha512-JuRQ9KXLEjaUNjTWpzuR231Z2WpIwczOkBEIvbHNCzQefFIT0L8IqE6NV6ULLyC1SI/i234JnDoMkfg+RjQj2g==, registry: http://registry.npm.faidev.cc/, tarball: https://registry.npmmirror.com/@types/react/-/react-19.0.10.tgz}
     name: '@types/react'
     version: 19.0.10
-    dependencies:
-      csstype: registry.npmmirror.com/csstype@3.1.3
 
-  registry.npmmirror.com/@types/stats.js@0.17.3:
+  '@types/stats.js@https://registry.npmmirror.com/@types/stats.js/-/stats.js-0.17.3.tgz':
     resolution: {integrity: sha512-pXNfAD3KHOdif9EQXZ9deK82HVNaXP5ZIF5RP2QG6OQFNTaY2YIetfrE9t528vEreGQvEPRDDc8muaoYeK0SxQ==, registry: http://registry.npm.faidev.cc/, tarball: https://registry.npmmirror.com/@types/stats.js/-/stats.js-0.17.3.tgz}
     name: '@types/stats.js'
     version: 0.17.3
-    dev: true
 
-  registry.npmmirror.com/@types/three@0.174.0:
+  '@types/three@https://registry.npmmirror.com/@types/three/-/three-0.174.0.tgz':
     resolution: {integrity: sha512-De/+vZnfg2aVWNiuy1Ldu+n2ydgw1osinmiZTAn0necE++eOfsygL8JpZgFjR2uHmAPo89MkxBj3JJ+2BMe+Uw==, registry: http://registry.npm.faidev.cc/, tarball: https://registry.npmmirror.com/@types/three/-/three-0.174.0.tgz}
     name: '@types/three'
     version: 0.174.0
-    dependencies:
-      '@tweenjs/tween.js': registry.npmmirror.com/@tweenjs/tween.js@23.1.3
-      '@types/stats.js': registry.npmmirror.com/@types/stats.js@0.17.3
-      '@types/webxr': registry.npmmirror.com/@types/webxr@0.5.21
-      '@webgpu/types': registry.npmmirror.com/@webgpu/types@0.1.56
-      fflate: registry.npmmirror.com/fflate@0.8.2
-      meshoptimizer: registry.npmmirror.com/meshoptimizer@0.18.1
-    dev: true
 
-  registry.npmmirror.com/@types/webxr@0.5.21:
+  '@types/webxr@https://registry.npmmirror.com/@types/webxr/-/webxr-0.5.21.tgz':
     resolution: {integrity: sha512-geZIAtLzjGmgY2JUi6VxXdCrTb99A7yP49lxLr2Nm/uIK0PkkxcEi4OGhoGDO4pxCf3JwGz2GiJL2Ej4K2bKaA==, registry: http://registry.npm.faidev.cc/, tarball: https://registry.npmmirror.com/@types/webxr/-/webxr-0.5.21.tgz}
     name: '@types/webxr'
     version: 0.5.21
-    dev: true
 
-  registry.npmmirror.com/@webgpu/types@0.1.56:
+  '@webgpu/types@https://registry.npmmirror.com/@webgpu/types/-/types-0.1.56.tgz':
     resolution: {integrity: sha512-JkT4ngqwk4gKAFoWtXCcC1+TGhSStVtauS9z27slOGSFYr+QqjS0CoawiAxP7Gq9xkT4Pw9uouvWPT44HwbUiw==, registry: http://registry.npm.faidev.cc/, tarball: https://registry.npmmirror.com/@webgpu/types/-/types-0.1.56.tgz}
     name: '@webgpu/types'
     version: 0.1.56
-    dev: true
 
-  registry.npmmirror.com/braces@3.0.3:
+  braces@https://registry.npmmirror.com/braces/-/braces-3.0.3.tgz:
     resolution: {integrity: sha512-yQbXgO/OSZVD2IsiLlro+7Hf6Q18EJrKSEsdoMzKePKXct3gvD8oLcOQdIzGupr5Fj+EDe8gO/lxc1BzfMpxvA==, registry: http://registry.npm.faidev.cc/, tarball: https://registry.npmmirror.com/braces/-/braces-3.0.3.tgz}
     name: braces
     version: 3.0.3
     engines: {node: '>=8'}
-    dependencies:
-      fill-range: registry.npmmirror.com/fill-range@7.1.1
-    dev: true
 
-  registry.npmmirror.com/camelcase-css@2.0.1:
+  camelcase-css@https://registry.npmmirror.com/camelcase-css/-/camelcase-css-2.0.1.tgz:
     resolution: {integrity: sha512-QOSvevhslijgYwRx6Rv7zKdMF8lbRmx+uQGx2+vDc+KI/eBnsy9kit5aj23AgGu3pa4t9AgwbnXWqS+iOY+2aA==, registry: http://registry.npm.faidev.cc/, tarball: https://registry.npmmirror.com/camelcase-css/-/camelcase-css-2.0.1.tgz}
     name: camelcase-css
     version: 2.0.1
     engines: {node: '>= 6'}
-    dev: true
 
-  registry.npmmirror.com/caniuse-lite@1.0.30001706:
+  caniuse-lite@https://registry.npmmirror.com/caniuse-lite/-/caniuse-lite-1.0.30001706.tgz:
     resolution: {integrity: sha512-3ZczoTApMAZwPKYWmwVbQMFpXBDds3/0VciVoUwPUbldlYyVLmRVuRs/PcUZtHpbLRpzzDvrvnFuREsGt6lUug==, registry: http://registry.npm.faidev.cc/, tarball: https://registry.npmmirror.com/caniuse-lite/-/caniuse-lite-1.0.30001706.tgz}
     name: caniuse-lite
     version: 1.0.30001706
-    dev: true
 
-  registry.npmmirror.com/clsx@2.1.1:
+  clsx@https://registry.npmmirror.com/clsx/-/clsx-2.1.1.tgz:
     resolution: {integrity: sha512-eYm0QWBtUrBWZWG0d386OGAw16Z995PiOVo2B7bjWSbHedGl5e0ZWaq65kOGgUSNesEIDkB9ISbTg/JK9dhCZA==, registry: http://registry.npm.faidev.cc/, tarball: https://registry.npmmirror.com/clsx/-/clsx-2.1.1.tgz}
     name: clsx
     version: 2.1.1
     engines: {node: '>=6'}
-    dev: false
 
-  registry.npmmirror.com/core-js@3.41.0:
+  core-js@https://registry.npmmirror.com/core-js/-/core-js-3.41.0.tgz:
     resolution: {integrity: sha512-SJ4/EHwS36QMJd6h/Rg+GyR4A5xE0FSI3eZ+iBVpfqf1x0eTSg1smWLHrA+2jQThZSh97fmSgFSU8B61nxosxA==, registry: http://registry.npm.faidev.cc/, tarball: https://registry.npmmirror.com/core-js/-/core-js-3.41.0.tgz}
     name: core-js
     version: 3.41.0
-    requiresBuild: true
-    dev: true
 
-  registry.npmmirror.com/cssesc@3.0.0:
+  cssesc@https://registry.npmmirror.com/cssesc/-/cssesc-3.0.0.tgz:
     resolution: {integrity: sha512-/Tb/JcjK111nNScGob5MNtsntNM1aCNUDipB/TkwZFhyDrrE47SOx/18wF2bbjgc3ZzCSKW1T5nt5EbFoAz/Vg==, registry: http://registry.npm.faidev.cc/, tarball: https://registry.npmmirror.com/cssesc/-/cssesc-3.0.0.tgz}
     name: cssesc
     version: 3.0.0
     engines: {node: '>=4'}
     hasBin: true
-    dev: true
 
-  registry.npmmirror.com/csstype@3.1.3:
+  csstype@https://registry.npmmirror.com/csstype/-/csstype-3.1.3.tgz:
     resolution: {integrity: sha512-M1uQkMl8rQK/szD0LNhtqxIPLpimGm8sOBwU7lLnCpSbTyY3yeU1Vc7l4KT5zT4s/yOxHH5O7tIuuLOCnLADRw==, registry: http://registry.npm.faidev.cc/, tarball: https://registry.npmmirror.com/csstype/-/csstype-3.1.3.tgz}
     name: csstype
     version: 3.1.3
 
-  registry.npmmirror.com/detect-libc@2.0.3:
+  detect-libc@https://registry.npmmirror.com/detect-libc/-/detect-libc-2.0.3.tgz:
     resolution: {integrity: sha512-bwy0MGW55bG41VqxxypOsdSdGqLwXPI/focwgTYCFMbdUiBAxLg9CFzG08sz2aqzknwiX7Hkl0bQENjg8iLByw==, registry: http://registry.npm.faidev.cc/, tarball: https://registry.npmmirror.com/detect-libc/-/detect-libc-2.0.3.tgz}
     name: detect-libc
     version: 2.0.3
     engines: {node: '>=8'}
-    dev: true
 
-  registry.npmmirror.com/detect-node-es@1.1.0:
+  detect-node-es@https://registry.npmmirror.com/detect-node-es/-/detect-node-es-1.1.0.tgz:
     resolution: {integrity: sha512-ypdmJU/TbBby2Dxibuv7ZLW3Bs1QEmM7nHjEANfohJLvE0XVujisn1qPJcZxg+qDucsr+bP6fLD1rPS3AhJ7EQ==, registry: http://registry.npm.faidev.cc/, tarball: https://registry.npmmirror.com/detect-node-es/-/detect-node-es-1.1.0.tgz}
     name: detect-node-es
     version: 1.1.0
-    dev: false
 
-  registry.npmmirror.com/enhanced-resolve@5.18.1:
+  enhanced-resolve@https://registry.npmmirror.com/enhanced-resolve/-/enhanced-resolve-5.18.1.tgz:
     resolution: {integrity: sha512-ZSW3ma5GkcQBIpwZTSRAI8N71Uuwgs93IezB7mf7R60tC8ZbJideoDNKjHn2O9KIlx6rkGTTEk1xUCK2E1Y2Yg==, registry: http://registry.npm.faidev.cc/, tarball: https://registry.npmmirror.com/enhanced-resolve/-/enhanced-resolve-5.18.1.tgz}
     name: enhanced-resolve
     version: 5.18.1
     engines: {node: '>=10.13.0'}
-    dependencies:
-      graceful-fs: registry.npmmirror.com/graceful-fs@4.2.11
-      tapable: registry.npmmirror.com/tapable@2.2.1
-    dev: true
 
-  registry.npmmirror.com/error-stack-parser@2.1.4:
+  error-stack-parser@https://registry.npmmirror.com/error-stack-parser/-/error-stack-parser-2.1.4.tgz:
     resolution: {integrity: sha512-Sk5V6wVazPhq5MhpO+AUxJn5x7XSXGl1R93Vn7i+zS15KDVxQijejNCrz8340/2bgLBjR9GtEG8ZVKONDjcqGQ==, registry: http://registry.npm.faidev.cc/, tarball: https://registry.npmmirror.com/error-stack-parser/-/error-stack-parser-2.1.4.tgz}
     name: error-stack-parser
     version: 2.1.4
-    dependencies:
-      stackframe: registry.npmmirror.com/stackframe@1.3.4
-    dev: true
 
-  registry.npmmirror.com/fast-glob@3.3.3:
+  fast-glob@https://registry.npmmirror.com/fast-glob/-/fast-glob-3.3.3.tgz:
     resolution: {integrity: sha512-7MptL8U0cqcFdzIzwOTHoilX9x5BrNqye7Z/LuC7kCMRio1EMSyqRK3BEAUD7sXRq4iT4AzTVuZdhgQ2TCvYLg==, registry: http://registry.npm.faidev.cc/, tarball: https://registry.npmmirror.com/fast-glob/-/fast-glob-3.3.3.tgz}
     name: fast-glob
     version: 3.3.3
     engines: {node: '>=8.6.0'}
-    dependencies:
-      '@nodelib/fs.stat': registry.npmmirror.com/@nodelib/fs.stat@2.0.5
-      '@nodelib/fs.walk': registry.npmmirror.com/@nodelib/fs.walk@1.2.8
-      glob-parent: registry.npmmirror.com/glob-parent@5.1.2
-      merge2: registry.npmmirror.com/merge2@1.4.1
-      micromatch: registry.npmmirror.com/micromatch@4.0.8
-    dev: true
 
-  registry.npmmirror.com/fastq@1.19.1:
+  fastq@https://registry.npmmirror.com/fastq/-/fastq-1.19.1.tgz:
     resolution: {integrity: sha512-GwLTyxkCXjXbxqIhTsMI2Nui8huMPtnxg7krajPJAjnEG/iiOS7i+zCtWGZR9G0NBKbXKh6X9m9UIsYX/N6vvQ==, registry: http://registry.npm.faidev.cc/, tarball: https://registry.npmmirror.com/fastq/-/fastq-1.19.1.tgz}
     name: fastq
     version: 1.19.1
-    dependencies:
-      reusify: registry.npmmirror.com/reusify@1.1.0
-    dev: true
 
-  registry.npmmirror.com/fflate@0.8.2:
+  fflate@https://registry.npmmirror.com/fflate/-/fflate-0.8.2.tgz:
     resolution: {integrity: sha512-cPJU47OaAoCbg0pBvzsgpTPhmhqI5eJjh/JIu8tPj5q+T7iLvW/JAYUqmE7KOB4R1ZyEhzBaIQpQpardBF5z8A==, registry: http://registry.npm.faidev.cc/, tarball: https://registry.npmmirror.com/fflate/-/fflate-0.8.2.tgz}
     name: fflate
     version: 0.8.2
-    dev: true
 
-  registry.npmmirror.com/fill-range@7.1.1:
+  fill-range@https://registry.npmmirror.com/fill-range/-/fill-range-7.1.1.tgz:
     resolution: {integrity: sha512-YsGpe3WHLK8ZYi4tWDg2Jy3ebRz2rXowDxnld4bkQB00cc/1Zw9AWnC0i9ztDJitivtQvaI9KaLyKrc+hBW0yg==, registry: http://registry.npm.faidev.cc/, tarball: https://registry.npmmirror.com/fill-range/-/fill-range-7.1.1.tgz}
     name: fill-range
     version: 7.1.1
     engines: {node: '>=8'}
-    dependencies:
-      to-regex-range: registry.npmmirror.com/to-regex-range@5.0.1
-    dev: true
 
-  registry.npmmirror.com/get-nonce@1.0.1:
+  get-nonce@https://registry.npmmirror.com/get-nonce/-/get-nonce-1.0.1.tgz:
     resolution: {integrity: sha512-FJhYRoDaiatfEkUK8HKlicmu/3SGFD51q3itKDGoSTysQJBnfOcxU5GxnhE1E6soB76MbT0MBtnKJuXyAx+96Q==, registry: http://registry.npm.faidev.cc/, tarball: https://registry.npmmirror.com/get-nonce/-/get-nonce-1.0.1.tgz}
     name: get-nonce
     version: 1.0.1
     engines: {node: '>=6'}
-    dev: false
 
-  registry.npmmirror.com/glob-parent@5.1.2:
+  glob-parent@https://registry.npmmirror.com/glob-parent/-/glob-parent-5.1.2.tgz:
     resolution: {integrity: sha512-AOIgSQCepiJYwP3ARnGx+5VnTu2HBYdzbGP45eLw1vr3zB3vZLeyed1sC9hnbcOc9/SrMyM5RPQrkGz4aS9Zow==, registry: http://registry.npm.faidev.cc/, tarball: https://registry.npmmirror.com/glob-parent/-/glob-parent-5.1.2.tgz}
     name: glob-parent
     version: 5.1.2
     engines: {node: '>= 6'}
-    dependencies:
-      is-glob: registry.npmmirror.com/is-glob@4.0.3
-    dev: true
 
-  registry.npmmirror.com/graceful-fs@4.2.11:
+  graceful-fs@https://registry.npmmirror.com/graceful-fs/-/graceful-fs-4.2.11.tgz:
     resolution: {integrity: sha512-RbJ5/jmFcNNCcDV5o9eTnBLJ/HszWV0P73bc+Ff4nS/rJj+YaS6IGyiOL0VoBYX+l1Wrl3k63h/KrH+nhJ0XvQ==, registry: http://registry.npm.faidev.cc/, tarball: https://registry.npmmirror.com/graceful-fs/-/graceful-fs-4.2.11.tgz}
     name: graceful-fs
     version: 4.2.11
-    dev: true
 
-  registry.npmmirror.com/html-entities@2.5.2:
+  html-entities@https://registry.npmmirror.com/html-entities/-/html-entities-2.5.2.tgz:
     resolution: {integrity: sha512-K//PSRMQk4FZ78Kyau+mZurHn3FH0Vwr+H36eE0rPbeYkRRi9YxceYPhuN60UwWorxyKHhqoAJl2OFKa4BVtaA==, registry: http://registry.npm.faidev.cc/, tarball: https://registry.npmmirror.com/html-entities/-/html-entities-2.5.2.tgz}
     name: html-entities
     version: 2.5.2
-    dev: true
 
-  registry.npmmirror.com/is-extglob@2.1.1:
+  is-extglob@https://registry.npmmirror.com/is-extglob/-/is-extglob-2.1.1.tgz:
     resolution: {integrity: sha512-SbKbANkN603Vi4jEZv49LeVJMn4yGwsbzZworEoyEiutsN3nJYdbO36zfhGJ6QEDpOZIFkDtnq5JRxmvl3jsoQ==, registry: http://registry.npm.faidev.cc/, tarball: https://registry.npmmirror.com/is-extglob/-/is-extglob-2.1.1.tgz}
     name: is-extglob
     version: 2.1.1
     engines: {node: '>=0.10.0'}
-    dev: true
 
-  registry.npmmirror.com/is-glob@4.0.3:
+  is-glob@https://registry.npmmirror.com/is-glob/-/is-glob-4.0.3.tgz:
     resolution: {integrity: sha512-xelSayHH36ZgE7ZWhli7pW34hNbNl8Ojv5KVmkJD4hBdD3th8Tfk9vYasLM+mXWOZhFkgZfxhLSnrwRr4elSSg==, registry: http://registry.npm.faidev.cc/, tarball: https://registry.npmmirror.com/is-glob/-/is-glob-4.0.3.tgz}
     name: is-glob
     version: 4.0.3
     engines: {node: '>=0.10.0'}
-    dependencies:
-      is-extglob: registry.npmmirror.com/is-extglob@2.1.1
-    dev: true
 
-  registry.npmmirror.com/is-number@7.0.0:
+  is-number@https://registry.npmmirror.com/is-number/-/is-number-7.0.0.tgz:
     resolution: {integrity: sha512-41Cifkg6e8TylSpdtTpeLVMqvSBEVzTttHvERD741+pnZ8ANv0004MRL43QKPDlK9cGvNp6NZWZUBlbGXYxxng==, registry: http://registry.npm.faidev.cc/, tarball: https://registry.npmmirror.com/is-number/-/is-number-7.0.0.tgz}
     name: is-number
     version: 7.0.0
     engines: {node: '>=0.12.0'}
-    dev: true
 
-  registry.npmmirror.com/isomorphic-rslog@0.0.6:
+  isomorphic-rslog@https://registry.npmmirror.com/isomorphic-rslog/-/isomorphic-rslog-0.0.6.tgz:
     resolution: {integrity: sha512-HM0q6XqQ93psDlqvuViNs/Ea3hAyGDkIdVAHlrEocjjAwGrs1fZ+EdQjS9eUPacnYB7Y8SoDdSY3H8p3ce205A==, registry: http://registry.npm.faidev.cc/, tarball: https://registry.npmmirror.com/isomorphic-rslog/-/isomorphic-rslog-0.0.6.tgz}
     name: isomorphic-rslog
     version: 0.0.6
     engines: {node: '>=14.17.6'}
-    dev: true
 
-  registry.npmmirror.com/jiti@2.4.2:
+  jiti@https://registry.npmmirror.com/jiti/-/jiti-2.4.2.tgz:
     resolution: {integrity: sha512-rg9zJN+G4n2nfJl5MW3BMygZX56zKPNVEYYqq7adpmMh4Jn2QNEwhvQlFy6jPVdcod7txZtKHWnyZiA3a0zP7A==, registry: http://registry.npm.faidev.cc/, tarball: https://registry.npmmirror.com/jiti/-/jiti-2.4.2.tgz}
     name: jiti
     version: 2.4.2
     hasBin: true
-    dev: true
 
-  registry.npmmirror.com/lightningcss-darwin-arm64@1.29.2:
+  lightningcss-darwin-arm64@https://registry.npmmirror.com/lightningcss-darwin-arm64/-/lightningcss-darwin-arm64-1.29.2.tgz:
     resolution: {integrity: sha512-cK/eMabSViKn/PG8U/a7aCorpeKLMlK0bQeNHmdb7qUnBkNPnL+oV5DjJUo0kqWsJUapZsM4jCfYItbqBDvlcA==, registry: http://registry.npm.faidev.cc/, tarball: https://registry.npmmirror.com/lightningcss-darwin-arm64/-/lightningcss-darwin-arm64-1.29.2.tgz}
     name: lightningcss-darwin-arm64
     version: 1.29.2
     engines: {node: '>= 12.0.0'}
     cpu: [arm64]
     os: [darwin]
-    requiresBuild: true
-    dev: true
-    optional: true
 
-  registry.npmmirror.com/lightningcss-darwin-x64@1.29.2:
+  lightningcss-darwin-x64@https://registry.npmmirror.com/lightningcss-darwin-x64/-/lightningcss-darwin-x64-1.29.2.tgz:
     resolution: {integrity: sha512-j5qYxamyQw4kDXX5hnnCKMf3mLlHvG44f24Qyi2965/Ycz829MYqjrVg2H8BidybHBp9kom4D7DR5VqCKDXS0w==, registry: http://registry.npm.faidev.cc/, tarball: https://registry.npmmirror.com/lightningcss-darwin-x64/-/lightningcss-darwin-x64-1.29.2.tgz}
     name: lightningcss-darwin-x64
     version: 1.29.2
     engines: {node: '>= 12.0.0'}
     cpu: [x64]
     os: [darwin]
-    requiresBuild: true
-    dev: true
-    optional: true
 
-  registry.npmmirror.com/lightningcss-freebsd-x64@1.29.2:
+  lightningcss-freebsd-x64@https://registry.npmmirror.com/lightningcss-freebsd-x64/-/lightningcss-freebsd-x64-1.29.2.tgz:
     resolution: {integrity: sha512-wDk7M2tM78Ii8ek9YjnY8MjV5f5JN2qNVO+/0BAGZRvXKtQrBC4/cn4ssQIpKIPP44YXw6gFdpUF+Ps+RGsCwg==, registry: http://registry.npm.faidev.cc/, tarball: https://registry.npmmirror.com/lightningcss-freebsd-x64/-/lightningcss-freebsd-x64-1.29.2.tgz}
     name: lightningcss-freebsd-x64
     version: 1.29.2
     engines: {node: '>= 12.0.0'}
     cpu: [x64]
     os: [freebsd]
-    requiresBuild: true
-    dev: true
-    optional: true
 
-  registry.npmmirror.com/lightningcss-linux-arm-gnueabihf@1.29.2:
+  lightningcss-linux-arm-gnueabihf@https://registry.npmmirror.com/lightningcss-linux-arm-gnueabihf/-/lightningcss-linux-arm-gnueabihf-1.29.2.tgz:
     resolution: {integrity: sha512-IRUrOrAF2Z+KExdExe3Rz7NSTuuJ2HvCGlMKoquK5pjvo2JY4Rybr+NrKnq0U0hZnx5AnGsuFHjGnNT14w26sg==, registry: http://registry.npm.faidev.cc/, tarball: https://registry.npmmirror.com/lightningcss-linux-arm-gnueabihf/-/lightningcss-linux-arm-gnueabihf-1.29.2.tgz}
     name: lightningcss-linux-arm-gnueabihf
     version: 1.29.2
     engines: {node: '>= 12.0.0'}
     cpu: [arm]
     os: [linux]
-    requiresBuild: true
-    dev: true
-    optional: true
 
-  registry.npmmirror.com/lightningcss-linux-arm64-gnu@1.29.2:
+  lightningcss-linux-arm64-gnu@https://registry.npmmirror.com/lightningcss-linux-arm64-gnu/-/lightningcss-linux-arm64-gnu-1.29.2.tgz:
     resolution: {integrity: sha512-KKCpOlmhdjvUTX/mBuaKemp0oeDIBBLFiU5Fnqxh1/DZ4JPZi4evEH7TKoSBFOSOV3J7iEmmBaw/8dpiUvRKlQ==, registry: http://registry.npm.faidev.cc/, tarball: https://registry.npmmirror.com/lightningcss-linux-arm64-gnu/-/lightningcss-linux-arm64-gnu-1.29.2.tgz}
     name: lightningcss-linux-arm64-gnu
     version: 1.29.2
@@ -909,11 +631,8 @@ packages:
     cpu: [arm64]
     os: [linux]
     libc: [glibc]
-    requiresBuild: true
-    dev: true
-    optional: true
 
-  registry.npmmirror.com/lightningcss-linux-arm64-musl@1.29.2:
+  lightningcss-linux-arm64-musl@https://registry.npmmirror.com/lightningcss-linux-arm64-musl/-/lightningcss-linux-arm64-musl-1.29.2.tgz:
     resolution: {integrity: sha512-Q64eM1bPlOOUgxFmoPUefqzY1yV3ctFPE6d/Vt7WzLW4rKTv7MyYNky+FWxRpLkNASTnKQUaiMJ87zNODIrrKQ==, registry: http://registry.npm.faidev.cc/, tarball: https://registry.npmmirror.com/lightningcss-linux-arm64-musl/-/lightningcss-linux-arm64-musl-1.29.2.tgz}
     name: lightningcss-linux-arm64-musl
     version: 1.29.2
@@ -921,11 +640,8 @@ packages:
     cpu: [arm64]
     os: [linux]
     libc: [musl]
-    requiresBuild: true
-    dev: true
-    optional: true
 
-  registry.npmmirror.com/lightningcss-linux-x64-gnu@1.29.2:
+  lightningcss-linux-x64-gnu@https://registry.npmmirror.com/lightningcss-linux-x64-gnu/-/lightningcss-linux-x64-gnu-1.29.2.tgz:
     resolution: {integrity: sha512-0v6idDCPG6epLXtBH/RPkHvYx74CVziHo6TMYga8O2EiQApnUPZsbR9nFNrg2cgBzk1AYqEd95TlrsL7nYABQg==, registry: http://registry.npm.faidev.cc/, tarball: https://registry.npmmirror.com/lightningcss-linux-x64-gnu/-/lightningcss-linux-x64-gnu-1.29.2.tgz}
     name: lightningcss-linux-x64-gnu
     version: 1.29.2
@@ -933,11 +649,8 @@ packages:
     cpu: [x64]
     os: [linux]
     libc: [glibc]
-    requiresBuild: true
-    dev: true
-    optional: true
 
-  registry.npmmirror.com/lightningcss-linux-x64-musl@1.29.2:
+  lightningcss-linux-x64-musl@https://registry.npmmirror.com/lightningcss-linux-x64-musl/-/lightningcss-linux-x64-musl-1.29.2.tgz:
     resolution: {integrity: sha512-rMpz2yawkgGT8RULc5S4WiZopVMOFWjiItBT7aSfDX4NQav6M44rhn5hjtkKzB+wMTRlLLqxkeYEtQ3dd9696w==, registry: http://registry.npm.faidev.cc/, tarball: https://registry.npmmirror.com/lightningcss-linux-x64-musl/-/lightningcss-linux-x64-musl-1.29.2.tgz}
     name: lightningcss-linux-x64-musl
     version: 1.29.2
@@ -945,225 +658,143 @@ packages:
     cpu: [x64]
     os: [linux]
     libc: [musl]
-    requiresBuild: true
-    dev: true
-    optional: true
 
-  registry.npmmirror.com/lightningcss-win32-arm64-msvc@1.29.2:
+  lightningcss-win32-arm64-msvc@https://registry.npmmirror.com/lightningcss-win32-arm64-msvc/-/lightningcss-win32-arm64-msvc-1.29.2.tgz:
     resolution: {integrity: sha512-nL7zRW6evGQqYVu/bKGK+zShyz8OVzsCotFgc7judbt6wnB2KbiKKJwBE4SGoDBQ1O94RjW4asrCjQL4i8Fhbw==, registry: http://registry.npm.faidev.cc/, tarball: https://registry.npmmirror.com/lightningcss-win32-arm64-msvc/-/lightningcss-win32-arm64-msvc-1.29.2.tgz}
     name: lightningcss-win32-arm64-msvc
     version: 1.29.2
     engines: {node: '>= 12.0.0'}
     cpu: [arm64]
     os: [win32]
-    requiresBuild: true
-    dev: true
-    optional: true
 
-  registry.npmmirror.com/lightningcss-win32-x64-msvc@1.29.2:
+  lightningcss-win32-x64-msvc@https://registry.npmmirror.com/lightningcss-win32-x64-msvc/-/lightningcss-win32-x64-msvc-1.29.2.tgz:
     resolution: {integrity: sha512-EdIUW3B2vLuHmv7urfzMI/h2fmlnOQBk1xlsDxkN1tCWKjNFjfLhGxYk8C8mzpSfr+A6jFFIi8fU6LbQGsRWjA==, registry: http://registry.npm.faidev.cc/, tarball: https://registry.npmmirror.com/lightningcss-win32-x64-msvc/-/lightningcss-win32-x64-msvc-1.29.2.tgz}
     name: lightningcss-win32-x64-msvc
     version: 1.29.2
     engines: {node: '>= 12.0.0'}
     cpu: [x64]
     os: [win32]
-    requiresBuild: true
-    dev: true
-    optional: true
 
-  registry.npmmirror.com/lightningcss@1.29.2:
+  lightningcss@https://registry.npmmirror.com/lightningcss/-/lightningcss-1.29.2.tgz:
     resolution: {integrity: sha512-6b6gd/RUXKaw5keVdSEtqFVdzWnU5jMxTUjA2bVcMNPLwSQ08Sv/UodBVtETLCn7k4S1Ibxwh7k68IwLZPgKaA==, registry: http://registry.npm.faidev.cc/, tarball: https://registry.npmmirror.com/lightningcss/-/lightningcss-1.29.2.tgz}
     name: lightningcss
     version: 1.29.2
     engines: {node: '>= 12.0.0'}
-    dependencies:
-      detect-libc: registry.npmmirror.com/detect-libc@2.0.3
-    optionalDependencies:
-      lightningcss-darwin-arm64: registry.npmmirror.com/lightningcss-darwin-arm64@1.29.2
-      lightningcss-darwin-x64: registry.npmmirror.com/lightningcss-darwin-x64@1.29.2
-      lightningcss-freebsd-x64: registry.npmmirror.com/lightningcss-freebsd-x64@1.29.2
-      lightningcss-linux-arm-gnueabihf: registry.npmmirror.com/lightningcss-linux-arm-gnueabihf@1.29.2
-      lightningcss-linux-arm64-gnu: registry.npmmirror.com/lightningcss-linux-arm64-gnu@1.29.2
-      lightningcss-linux-arm64-musl: registry.npmmirror.com/lightningcss-linux-arm64-musl@1.29.2
-      lightningcss-linux-x64-gnu: registry.npmmirror.com/lightningcss-linux-x64-gnu@1.29.2
-      lightningcss-linux-x64-musl: registry.npmmirror.com/lightningcss-linux-x64-musl@1.29.2
-      lightningcss-win32-arm64-msvc: registry.npmmirror.com/lightningcss-win32-arm64-msvc@1.29.2
-      lightningcss-win32-x64-msvc: registry.npmmirror.com/lightningcss-win32-x64-msvc@1.29.2
-    dev: true
 
-  registry.npmmirror.com/merge2@1.4.1:
+  merge2@https://registry.npmmirror.com/merge2/-/merge2-1.4.1.tgz:
     resolution: {integrity: sha512-8q7VEgMJW4J8tcfVPy8g09NcQwZdbwFEqhe/WZkoIzjn/3TGDwtOCYtXGxA3O8tPzpczCCDgv+P2P5y00ZJOOg==, registry: http://registry.npm.faidev.cc/, tarball: https://registry.npmmirror.com/merge2/-/merge2-1.4.1.tgz}
     name: merge2
     version: 1.4.1
     engines: {node: '>= 8'}
-    dev: true
 
-  registry.npmmirror.com/meshoptimizer@0.18.1:
+  meshoptimizer@https://registry.npmmirror.com/meshoptimizer/-/meshoptimizer-0.18.1.tgz:
     resolution: {integrity: sha512-ZhoIoL7TNV4s5B6+rx5mC//fw8/POGyNxS/DZyCJeiZ12ScLfVwRE/GfsxwiTkMYYD5DmK2/JXnEVXqL4rF+Sw==, registry: http://registry.npm.faidev.cc/, tarball: https://registry.npmmirror.com/meshoptimizer/-/meshoptimizer-0.18.1.tgz}
     name: meshoptimizer
     version: 0.18.1
-    dev: true
 
-  registry.npmmirror.com/micromatch@4.0.8:
+  micromatch@https://registry.npmmirror.com/micromatch/-/micromatch-4.0.8.tgz:
     resolution: {integrity: sha512-PXwfBhYu0hBCPw8Dn0E+WDYb7af3dSLVWKi3HGv84IdF4TyFoC0ysxFd0Goxw7nSv4T/PzEJQxsYsEiFCKo2BA==, registry: http://registry.npm.faidev.cc/, tarball: https://registry.npmmirror.com/micromatch/-/micromatch-4.0.8.tgz}
     name: micromatch
     version: 4.0.8
     engines: {node: '>=8.6'}
-    dependencies:
-      braces: registry.npmmirror.com/braces@3.0.3
-      picomatch: registry.npmmirror.com/picomatch@2.3.1
-    dev: true
 
-  registry.npmmirror.com/nanoid@3.3.10:
+  nanoid@https://registry.npmmirror.com/nanoid/-/nanoid-3.3.10.tgz:
     resolution: {integrity: sha512-vSJJTG+t/dIKAUhUDw/dLdZ9s//5OxcHqLaDWWrW4Cdq7o6tdLIczUkMXt2MBNmk6sJRZBZRXVixs7URY1CmIg==, registry: http://registry.npm.faidev.cc/, tarball: https://registry.npmmirror.com/nanoid/-/nanoid-3.3.10.tgz}
     name: nanoid
     version: 3.3.10
     engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
     hasBin: true
-    dev: true
 
-  registry.npmmirror.com/picocolors@1.1.1:
+  picocolors@https://registry.npmmirror.com/picocolors/-/picocolors-1.1.1.tgz:
     resolution: {integrity: sha512-xceH2snhtb5M9liqDsmEw56le376mTZkEX/jEb/RxNFyegNul7eNslCXP9FDj/Lcu0X8KEyMceP2ntpaHrDEVA==, registry: http://registry.npm.faidev.cc/, tarball: https://registry.npmmirror.com/picocolors/-/picocolors-1.1.1.tgz}
     name: picocolors
     version: 1.1.1
-    dev: true
 
-  registry.npmmirror.com/picomatch@2.3.1:
+  picomatch@https://registry.npmmirror.com/picomatch/-/picomatch-2.3.1.tgz:
     resolution: {integrity: sha512-JU3teHTNjmE2VCGFzuY8EXzCDVwEqB2a8fsIvwaStHhAWJEeVd1o1QD80CU6+ZdEXXSLbSsuLwJjkCBWqRQUVA==, registry: http://registry.npm.faidev.cc/, tarball: https://registry.npmmirror.com/picomatch/-/picomatch-2.3.1.tgz}
     name: picomatch
     version: 2.3.1
     engines: {node: '>=8.6'}
-    dev: true
 
-  registry.npmmirror.com/postcss-js@4.0.1(postcss@8.5.3):
+  postcss-js@https://registry.npmmirror.com/postcss-js/-/postcss-js-4.0.1.tgz:
     resolution: {integrity: sha512-dDLF8pEO191hJMtlHFPRa8xsizHaM82MLfNkUHdUtVEV3tgTp5oj+8qbEqYM57SLfc74KSbw//4SeJma2LRVIw==, registry: http://registry.npm.faidev.cc/, tarball: https://registry.npmmirror.com/postcss-js/-/postcss-js-4.0.1.tgz}
-    id: registry.npmmirror.com/postcss-js/4.0.1
     name: postcss-js
     version: 4.0.1
     engines: {node: ^12 || ^14 || >= 16}
     peerDependencies:
       postcss: ^8.4.21
-    dependencies:
-      camelcase-css: registry.npmmirror.com/camelcase-css@2.0.1
-      postcss: registry.npmmirror.com/postcss@8.5.3
-    dev: true
 
-  registry.npmmirror.com/postcss-mixins@9.0.4(postcss@8.5.3):
+  postcss-mixins@https://registry.npmmirror.com/postcss-mixins/-/postcss-mixins-9.0.4.tgz:
     resolution: {integrity: sha512-XVq5jwQJDRu5M1XGkdpgASqLk37OqkH4JCFDXl/Dn7janOJjCTEKL+36cnRVy7bMtoBzALfO7bV7nTIsFnUWLA==, registry: http://registry.npm.faidev.cc/, tarball: https://registry.npmmirror.com/postcss-mixins/-/postcss-mixins-9.0.4.tgz}
-    id: registry.npmmirror.com/postcss-mixins/9.0.4
     name: postcss-mixins
     version: 9.0.4
     engines: {node: '>=14.0'}
     peerDependencies:
       postcss: ^8.2.14
-    dependencies:
-      fast-glob: registry.npmmirror.com/fast-glob@3.3.3
-      postcss: registry.npmmirror.com/postcss@8.5.3
-      postcss-js: registry.npmmirror.com/postcss-js@4.0.1(postcss@8.5.3)
-      postcss-simple-vars: registry.npmmirror.com/postcss-simple-vars@7.0.1(postcss@8.5.3)
-      sugarss: registry.npmmirror.com/sugarss@4.0.1(postcss@8.5.3)
-    dev: true
 
-  registry.npmmirror.com/postcss-nested@6.2.0(postcss@8.5.3):
+  postcss-nested@https://registry.npmmirror.com/postcss-nested/-/postcss-nested-6.2.0.tgz:
     resolution: {integrity: sha512-HQbt28KulC5AJzG+cZtj9kvKB93CFCdLvog1WFLf1D+xmMvPGlBstkpTEZfK5+AN9hfJocyBFCNiqyS48bpgzQ==, registry: http://registry.npm.faidev.cc/, tarball: https://registry.npmmirror.com/postcss-nested/-/postcss-nested-6.2.0.tgz}
-    id: registry.npmmirror.com/postcss-nested/6.2.0
     name: postcss-nested
     version: 6.2.0
     engines: {node: '>=12.0'}
     peerDependencies:
       postcss: ^8.2.14
-    dependencies:
-      postcss: registry.npmmirror.com/postcss@8.5.3
-      postcss-selector-parser: registry.npmmirror.com/postcss-selector-parser@6.1.2
-    dev: true
 
-  registry.npmmirror.com/postcss-preset-mantine@1.17.0(postcss@8.5.3):
+  postcss-preset-mantine@https://registry.npmmirror.com/postcss-preset-mantine/-/postcss-preset-mantine-1.17.0.tgz:
     resolution: {integrity: sha512-ji1PMDBUf2Vsx/HE5faMSs1+ff6qE6YRulTr4Ja+6HD3gop8rSMTCYdpN7KrdsEg079kfBKkO/PaKhG9uR0zwQ==, registry: http://registry.npm.faidev.cc/, tarball: https://registry.npmmirror.com/postcss-preset-mantine/-/postcss-preset-mantine-1.17.0.tgz}
-    id: registry.npmmirror.com/postcss-preset-mantine/1.17.0
     name: postcss-preset-mantine
     version: 1.17.0
     peerDependencies:
       postcss: '>=8.0.0'
-    dependencies:
-      postcss: registry.npmmirror.com/postcss@8.5.3
-      postcss-mixins: registry.npmmirror.com/postcss-mixins@9.0.4(postcss@8.5.3)
-      postcss-nested: registry.npmmirror.com/postcss-nested@6.2.0(postcss@8.5.3)
-    dev: true
 
-  registry.npmmirror.com/postcss-selector-parser@6.1.2:
+  postcss-selector-parser@https://registry.npmmirror.com/postcss-selector-parser/-/postcss-selector-parser-6.1.2.tgz:
     resolution: {integrity: sha512-Q8qQfPiZ+THO/3ZrOrO0cJJKfpYCagtMUkXbnEfmgUjwXg6z/WBeOyS9APBBPCTSiDV+s4SwQGu8yFsiMRIudg==, registry: http://registry.npm.faidev.cc/, tarball: https://registry.npmmirror.com/postcss-selector-parser/-/postcss-selector-parser-6.1.2.tgz}
     name: postcss-selector-parser
     version: 6.1.2
     engines: {node: '>=4'}
-    dependencies:
-      cssesc: registry.npmmirror.com/cssesc@3.0.0
-      util-deprecate: registry.npmmirror.com/util-deprecate@1.0.2
-    dev: true
 
-  registry.npmmirror.com/postcss-simple-vars@7.0.1(postcss@8.5.3):
+  postcss-simple-vars@https://registry.npmmirror.com/postcss-simple-vars/-/postcss-simple-vars-7.0.1.tgz:
     resolution: {integrity: sha512-5GLLXaS8qmzHMOjVxqkk1TZPf1jMqesiI7qLhnlyERalG0sMbHIbJqrcnrpmZdKCLglHnRHoEBB61RtGTsj++A==, registry: http://registry.npm.faidev.cc/, tarball: https://registry.npmmirror.com/postcss-simple-vars/-/postcss-simple-vars-7.0.1.tgz}
-    id: registry.npmmirror.com/postcss-simple-vars/7.0.1
     name: postcss-simple-vars
     version: 7.0.1
     engines: {node: '>=14.0'}
     peerDependencies:
       postcss: ^8.2.1
-    dependencies:
-      postcss: registry.npmmirror.com/postcss@8.5.3
-    dev: true
 
-  registry.npmmirror.com/postcss@8.5.3:
+  postcss@https://registry.npmmirror.com/postcss/-/postcss-8.5.3.tgz:
     resolution: {integrity: sha512-dle9A3yYxlBSrt8Fu+IpjGT8SY8hN0mlaA6GY8t0P5PjIOZemULz/E2Bnm/2dcUOena75OTNkHI76uZBNUUq3A==, registry: http://registry.npm.faidev.cc/, tarball: https://registry.npmmirror.com/postcss/-/postcss-8.5.3.tgz}
     name: postcss
     version: 8.5.3
     engines: {node: ^10 || ^12 || >=14}
-    dependencies:
-      nanoid: registry.npmmirror.com/nanoid@3.3.10
-      picocolors: registry.npmmirror.com/picocolors@1.1.1
-      source-map-js: registry.npmmirror.com/source-map-js@1.2.1
-    dev: true
 
-  registry.npmmirror.com/queue-microtask@1.2.3:
+  queue-microtask@https://registry.npmmirror.com/queue-microtask/-/queue-microtask-1.2.3.tgz:
     resolution: {integrity: sha512-NuaNSa6flKT5JaSYQzJok04JzTL1CA6aGhv5rfLW3PgqA+M2ChpZQnAC8h8i4ZFkBS8X5RqkDBHA7r4hej3K9A==, registry: http://registry.npm.faidev.cc/, tarball: https://registry.npmmirror.com/queue-microtask/-/queue-microtask-1.2.3.tgz}
     name: queue-microtask
     version: 1.2.3
-    dev: true
 
-  registry.npmmirror.com/react-dom@19.0.0(react@19.0.0):
+  react-dom@https://registry.npmmirror.com/react-dom/-/react-dom-19.0.0.tgz:
     resolution: {integrity: sha512-4GV5sHFG0e/0AD4X+ySy6UJd3jVl1iNsNHdpad0qhABJ11twS3TTBnseqsKurKcsNqCEFeGL3uLpVChpIO3QfQ==, registry: http://registry.npm.faidev.cc/, tarball: https://registry.npmmirror.com/react-dom/-/react-dom-19.0.0.tgz}
-    id: registry.npmmirror.com/react-dom/19.0.0
     name: react-dom
     version: 19.0.0
     peerDependencies:
       react: ^19.0.0
-    dependencies:
-      react: registry.npmmirror.com/react@19.0.0
-      scheduler: registry.npmmirror.com/scheduler@0.25.0
-    dev: false
 
-  registry.npmmirror.com/react-number-format@5.4.3(react-dom@19.0.0)(react@19.0.0):
+  react-number-format@https://registry.npmmirror.com/react-number-format/-/react-number-format-5.4.3.tgz:
     resolution: {integrity: sha512-VCY5hFg/soBighAoGcdE+GagkJq0230qN6jcS5sp8wQX1qy1fYN/RX7/BXkrs0oyzzwqR8/+eSUrqXbGeywdUQ==, registry: http://registry.npm.faidev.cc/, tarball: https://registry.npmmirror.com/react-number-format/-/react-number-format-5.4.3.tgz}
-    id: registry.npmmirror.com/react-number-format/5.4.3
     name: react-number-format
     version: 5.4.3
     peerDependencies:
       react: ^0.14 || ^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
       react-dom: ^0.14 || ^15.0.0 || ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
-    dependencies:
-      react: registry.npmmirror.com/react@19.0.0
-      react-dom: registry.npmmirror.com/react-dom@19.0.0(react@19.0.0)
-    dev: false
 
-  registry.npmmirror.com/react-refresh@0.16.0:
+  react-refresh@https://registry.npmmirror.com/react-refresh/-/react-refresh-0.16.0.tgz:
     resolution: {integrity: sha512-FPvF2XxTSikpJxcr+bHut2H4gJ17+18Uy20D5/F+SKzFap62R3cM5wH6b8WN3LyGSYeQilLEcJcR1fjBSI2S1A==, registry: http://registry.npm.faidev.cc/, tarball: https://registry.npmmirror.com/react-refresh/-/react-refresh-0.16.0.tgz}
     name: react-refresh
     version: 0.16.0
     engines: {node: '>=0.10.0'}
-    dev: true
 
-  registry.npmmirror.com/react-remove-scroll-bar@2.3.8(@types/react@19.0.10)(react@19.0.0):
+  react-remove-scroll-bar@https://registry.npmmirror.com/react-remove-scroll-bar/-/react-remove-scroll-bar-2.3.8.tgz:
     resolution: {integrity: sha512-9r+yi9+mgU33AKcj6IbT9oRCO78WriSj6t/cF8DWBZJ9aOGPOTEDvdUDz1FwKim7QXWwmHqtdHnRJfhAxEG46Q==, registry: http://registry.npm.faidev.cc/, tarball: https://registry.npmmirror.com/react-remove-scroll-bar/-/react-remove-scroll-bar-2.3.8.tgz}
-    id: registry.npmmirror.com/react-remove-scroll-bar/2.3.8
     name: react-remove-scroll-bar
     version: 2.3.8
     engines: {node: '>=10'}
@@ -1173,16 +804,9 @@ packages:
     peerDependenciesMeta:
       '@types/react':
         optional: true
-    dependencies:
-      '@types/react': registry.npmmirror.com/@types/react@19.0.10
-      react: registry.npmmirror.com/react@19.0.0
-      react-style-singleton: registry.npmmirror.com/react-style-singleton@2.2.3(@types/react@19.0.10)(react@19.0.0)
-      tslib: registry.npmmirror.com/tslib@2.8.1
-    dev: false
 
-  registry.npmmirror.com/react-remove-scroll@2.6.3(@types/react@19.0.10)(react@19.0.0):
+  react-remove-scroll@https://registry.npmmirror.com/react-remove-scroll/-/react-remove-scroll-2.6.3.tgz:
     resolution: {integrity: sha512-pnAi91oOk8g8ABQKGF5/M9qxmmOPxaAnopyTHYfqYEwJhyFrbbBtHuSgtKEoH0jpcxx5o3hXqH1mNd9/Oi+8iQ==, registry: http://registry.npm.faidev.cc/, tarball: https://registry.npmmirror.com/react-remove-scroll/-/react-remove-scroll-2.6.3.tgz}
-    id: registry.npmmirror.com/react-remove-scroll/2.6.3
     name: react-remove-scroll
     version: 2.6.3
     engines: {node: '>=10'}
@@ -1192,19 +816,9 @@ packages:
     peerDependenciesMeta:
       '@types/react':
         optional: true
-    dependencies:
-      '@types/react': registry.npmmirror.com/@types/react@19.0.10
-      react: registry.npmmirror.com/react@19.0.0
-      react-remove-scroll-bar: registry.npmmirror.com/react-remove-scroll-bar@2.3.8(@types/react@19.0.10)(react@19.0.0)
-      react-style-singleton: registry.npmmirror.com/react-style-singleton@2.2.3(@types/react@19.0.10)(react@19.0.0)
-      tslib: registry.npmmirror.com/tslib@2.8.1
-      use-callback-ref: registry.npmmirror.com/use-callback-ref@1.3.3(@types/react@19.0.10)(react@19.0.0)
-      use-sidecar: registry.npmmirror.com/use-sidecar@1.1.3(@types/react@19.0.10)(react@19.0.0)
-    dev: false
 
-  registry.npmmirror.com/react-style-singleton@2.2.3(@types/react@19.0.10)(react@19.0.0):
+  react-style-singleton@https://registry.npmmirror.com/react-style-singleton/-/react-style-singleton-2.2.3.tgz:
     resolution: {integrity: sha512-b6jSvxvVnyptAiLjbkWLE/lOnR4lfTtDAl+eUC7RZy+QQWc6wRzIV2CE6xBuMmDxc2qIihtDCZD5NPOFl7fRBQ==, registry: http://registry.npm.faidev.cc/, tarball: https://registry.npmmirror.com/react-style-singleton/-/react-style-singleton-2.2.3.tgz}
-    id: registry.npmmirror.com/react-style-singleton/2.2.3
     name: react-style-singleton
     version: 2.2.3
     engines: {node: '>=10'}
@@ -1214,152 +828,113 @@ packages:
     peerDependenciesMeta:
       '@types/react':
         optional: true
-    dependencies:
-      '@types/react': registry.npmmirror.com/@types/react@19.0.10
-      get-nonce: registry.npmmirror.com/get-nonce@1.0.1
-      react: registry.npmmirror.com/react@19.0.0
-      tslib: registry.npmmirror.com/tslib@2.8.1
-    dev: false
 
-  registry.npmmirror.com/react-textarea-autosize@8.5.6(@types/react@19.0.10)(react@19.0.0):
+  react-textarea-autosize@https://registry.npmmirror.com/react-textarea-autosize/-/react-textarea-autosize-8.5.6.tgz:
     resolution: {integrity: sha512-aT3ioKXMa8f6zHYGebhbdMD2L00tKeRX1zuVuDx9YQK/JLLRSaSxq3ugECEmUB9z2kvk6bFSIoRHLkkUv0RJiw==, registry: http://registry.npm.faidev.cc/, tarball: https://registry.npmmirror.com/react-textarea-autosize/-/react-textarea-autosize-8.5.6.tgz}
-    id: registry.npmmirror.com/react-textarea-autosize/8.5.6
     name: react-textarea-autosize
     version: 8.5.6
     engines: {node: '>=10'}
     peerDependencies:
       react: ^16.8.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
-    dependencies:
-      '@babel/runtime': registry.npmmirror.com/@babel/runtime@7.26.10
-      react: registry.npmmirror.com/react@19.0.0
-      use-composed-ref: registry.npmmirror.com/use-composed-ref@1.4.0(@types/react@19.0.10)(react@19.0.0)
-      use-latest: registry.npmmirror.com/use-latest@1.3.0(@types/react@19.0.10)(react@19.0.0)
-    transitivePeerDependencies:
-      - '@types/react'
-    dev: false
 
-  registry.npmmirror.com/react@19.0.0:
+  react@https://registry.npmmirror.com/react/-/react-19.0.0.tgz:
     resolution: {integrity: sha512-V8AVnmPIICiWpGfm6GLzCR/W5FXLchHop40W4nXBmdlEceh16rCN8O8LNWm5bh5XUX91fh7KpA+W0TgMKmgTpQ==, registry: http://registry.npm.faidev.cc/, tarball: https://registry.npmmirror.com/react/-/react-19.0.0.tgz}
     name: react
     version: 19.0.0
     engines: {node: '>=0.10.0'}
-    dev: false
 
-  registry.npmmirror.com/regenerator-runtime@0.14.1:
+  regenerator-runtime@https://registry.npmmirror.com/regenerator-runtime/-/regenerator-runtime-0.14.1.tgz:
     resolution: {integrity: sha512-dYnhHh0nJoMfnkZs6GmmhFknAGRrLznOu5nc9ML+EJxGvrx6H7teuevqVqCuPcPK//3eDrrjQhehXVx9cnkGdw==, registry: http://registry.npm.faidev.cc/, tarball: https://registry.npmmirror.com/regenerator-runtime/-/regenerator-runtime-0.14.1.tgz}
     name: regenerator-runtime
     version: 0.14.1
-    dev: false
 
-  registry.npmmirror.com/reusify@1.1.0:
+  reusify@https://registry.npmmirror.com/reusify/-/reusify-1.1.0.tgz:
     resolution: {integrity: sha512-g6QUff04oZpHs0eG5p83rFLhHeV00ug/Yf9nZM6fLeUrPguBTkTQOdpAWWspMh55TZfVQDPaN3NQJfbVRAxdIw==, registry: http://registry.npm.faidev.cc/, tarball: https://registry.npmmirror.com/reusify/-/reusify-1.1.0.tgz}
     name: reusify
     version: 1.1.0
     engines: {iojs: '>=1.0.0', node: '>=0.10.0'}
-    dev: true
 
-  registry.npmmirror.com/run-parallel@1.2.0:
+  run-parallel@https://registry.npmmirror.com/run-parallel/-/run-parallel-1.2.0.tgz:
     resolution: {integrity: sha512-5l4VyZR86LZ/lDxZTR6jqL8AFE2S0IFLMP26AbjsLVADxHdhB/c0GUsH+y39UfCi3dzz8OlQuPmnaJOMoDHQBA==, registry: http://registry.npm.faidev.cc/, tarball: https://registry.npmmirror.com/run-parallel/-/run-parallel-1.2.0.tgz}
     name: run-parallel
     version: 1.2.0
-    dependencies:
-      queue-microtask: registry.npmmirror.com/queue-microtask@1.2.3
-    dev: true
 
-  registry.npmmirror.com/scheduler@0.25.0:
+  scheduler@https://registry.npmmirror.com/scheduler/-/scheduler-0.25.0.tgz:
     resolution: {integrity: sha512-xFVuu11jh+xcO7JOAGJNOXld8/TcEHK/4CituBUeUb5hqxJLj9YuemAEuvm9gQ/+pgXYfbQuqAkiYu+u7YEsNA==, registry: http://registry.npm.faidev.cc/, tarball: https://registry.npmmirror.com/scheduler/-/scheduler-0.25.0.tgz}
     name: scheduler
     version: 0.25.0
-    dev: false
 
-  registry.npmmirror.com/source-map-js@1.2.1:
+  source-map-js@https://registry.npmmirror.com/source-map-js/-/source-map-js-1.2.1.tgz:
     resolution: {integrity: sha512-UXWMKhLOwVKb728IUtQPXxfYU+usdybtUrK/8uGE8CQMvrhOpwvzDBwj0QhSL7MQc7vIsISBG8VQ8+IDQxpfQA==, registry: http://registry.npm.faidev.cc/, tarball: https://registry.npmmirror.com/source-map-js/-/source-map-js-1.2.1.tgz}
     name: source-map-js
     version: 1.2.1
     engines: {node: '>=0.10.0'}
-    dev: true
 
-  registry.npmmirror.com/stackframe@1.3.4:
+  stackframe@https://registry.npmmirror.com/stackframe/-/stackframe-1.3.4.tgz:
     resolution: {integrity: sha512-oeVtt7eWQS+Na6F//S4kJ2K2VbRlS9D43mAlMyVpVWovy9o+jfgH8O9agzANzaiLjclA0oYzUXEM4PurhSUChw==, registry: http://registry.npm.faidev.cc/, tarball: https://registry.npmmirror.com/stackframe/-/stackframe-1.3.4.tgz}
     name: stackframe
     version: 1.3.4
-    dev: true
 
-  registry.npmmirror.com/sugarss@4.0.1(postcss@8.5.3):
+  sugarss@https://registry.npmmirror.com/sugarss/-/sugarss-4.0.1.tgz:
     resolution: {integrity: sha512-WCjS5NfuVJjkQzK10s8WOBY+hhDxxNt/N6ZaGwxFZ+wN3/lKKFSaaKUNecULcTTvE4urLcKaZFQD8vO0mOZujw==, registry: http://registry.npm.faidev.cc/, tarball: https://registry.npmmirror.com/sugarss/-/sugarss-4.0.1.tgz}
-    id: registry.npmmirror.com/sugarss/4.0.1
     name: sugarss
     version: 4.0.1
     engines: {node: '>=12.0'}
     peerDependencies:
       postcss: ^8.3.3
-    dependencies:
-      postcss: registry.npmmirror.com/postcss@8.5.3
-    dev: true
 
-  registry.npmmirror.com/tabbable@6.2.0:
+  tabbable@https://registry.npmmirror.com/tabbable/-/tabbable-6.2.0.tgz:
     resolution: {integrity: sha512-Cat63mxsVJlzYvN51JmVXIgNoUokrIaT2zLclCXjRd8boZ0004U4KCs/sToJ75C6sdlByWxpYnb5Boif1VSFew==, registry: http://registry.npm.faidev.cc/, tarball: https://registry.npmmirror.com/tabbable/-/tabbable-6.2.0.tgz}
     name: tabbable
     version: 6.2.0
-    dev: false
 
-  registry.npmmirror.com/tailwindcss@4.0.14:
+  tailwindcss@https://registry.npmmirror.com/tailwindcss/-/tailwindcss-4.0.14.tgz:
     resolution: {integrity: sha512-92YT2dpt671tFiHH/e1ok9D987N9fHD5VWoly1CdPD/Cd1HMglvZwP3nx2yTj2lbXDAHt8QssZkxTLCCTNL+xw==, registry: http://registry.npm.faidev.cc/, tarball: https://registry.npmmirror.com/tailwindcss/-/tailwindcss-4.0.14.tgz}
     name: tailwindcss
     version: 4.0.14
-    dev: true
 
-  registry.npmmirror.com/tapable@2.2.1:
+  tapable@https://registry.npmmirror.com/tapable/-/tapable-2.2.1.tgz:
     resolution: {integrity: sha512-GNzQvQTOIP6RyTfE2Qxb8ZVlNmw0n88vp1szwWRimP02mnTsx3Wtn5qRdqY9w2XduFNUgvOwhNnQsjwCp+kqaQ==, registry: http://registry.npm.faidev.cc/, tarball: https://registry.npmmirror.com/tapable/-/tapable-2.2.1.tgz}
     name: tapable
     version: 2.2.1
     engines: {node: '>=6'}
-    dev: true
 
-  registry.npmmirror.com/three@0.174.0:
+  three@https://registry.npmmirror.com/three/-/three-0.174.0.tgz:
     resolution: {integrity: sha512-p+WG3W6Ov74alh3geCMkGK9NWuT62ee21cV3jEnun201zodVF4tCE5aZa2U122/mkLRmhJJUQmLLW1BH00uQJQ==, registry: http://registry.npm.faidev.cc/, tarball: https://registry.npmmirror.com/three/-/three-0.174.0.tgz}
     name: three
     version: 0.174.0
-    dev: false
 
-  registry.npmmirror.com/to-regex-range@5.0.1:
+  to-regex-range@https://registry.npmmirror.com/to-regex-range/-/to-regex-range-5.0.1.tgz:
     resolution: {integrity: sha512-65P7iz6X5yEr1cwcgvQxbbIw7Uk3gOy5dIdtZ4rDveLqhrdJP+Li/Hx6tyK0NEb+2GCyneCMJiGqrADCSNk8sQ==, registry: http://registry.npm.faidev.cc/, tarball: https://registry.npmmirror.com/to-regex-range/-/to-regex-range-5.0.1.tgz}
     name: to-regex-range
     version: 5.0.1
     engines: {node: '>=8.0'}
-    dependencies:
-      is-number: registry.npmmirror.com/is-number@7.0.0
-    dev: true
 
-  registry.npmmirror.com/tslib@2.8.1:
+  tslib@https://registry.npmmirror.com/tslib/-/tslib-2.8.1.tgz:
     resolution: {integrity: sha512-oJFu94HQb+KVduSUQL7wnpmqnfmLsOA/nAh6b6EH0wCEoK0/mPeXU6c3wKDV83MkOuHPRHtSXKKU99IBazS/2w==, registry: http://registry.npm.faidev.cc/, tarball: https://registry.npmmirror.com/tslib/-/tslib-2.8.1.tgz}
     name: tslib
     version: 2.8.1
 
-  registry.npmmirror.com/type-fest@4.37.0:
+  type-fest@https://registry.npmmirror.com/type-fest/-/type-fest-4.37.0.tgz:
     resolution: {integrity: sha512-S/5/0kFftkq27FPNye0XM1e2NsnoD/3FS+pBmbjmmtLT6I+i344KoOf7pvXreaFsDamWeaJX55nczA1m5PsBDg==, registry: http://registry.npm.faidev.cc/, tarball: https://registry.npmmirror.com/type-fest/-/type-fest-4.37.0.tgz}
     name: type-fest
     version: 4.37.0
     engines: {node: '>=16'}
-    dev: false
 
-  registry.npmmirror.com/typescript@5.8.2:
+  typescript@https://registry.npmmirror.com/typescript/-/typescript-5.8.2.tgz:
     resolution: {integrity: sha512-aJn6wq13/afZp/jT9QZmwEjDqqvSGp1VT5GVg+f/t6/oVyrgXM6BY1h9BRh/O5p3PlUPAe+WuiEZOmb/49RqoQ==, registry: http://registry.npm.faidev.cc/, tarball: https://registry.npmmirror.com/typescript/-/typescript-5.8.2.tgz}
     name: typescript
     version: 5.8.2
     engines: {node: '>=14.17'}
     hasBin: true
-    dev: true
 
-  registry.npmmirror.com/undici-types@6.20.0:
+  undici-types@https://registry.npmmirror.com/undici-types/-/undici-types-6.20.0.tgz:
     resolution: {integrity: sha512-Ny6QZ2Nju20vw1SRHe3d9jVu6gJ+4e3+MMpqu7pqE5HT6WsTSlce++GQmK5UXS8mzV8DSYHrQH+Xrf2jVcuKNg==, registry: http://registry.npm.faidev.cc/, tarball: https://registry.npmmirror.com/undici-types/-/undici-types-6.20.0.tgz}
     name: undici-types
     version: 6.20.0
-    dev: true
 
-  registry.npmmirror.com/use-callback-ref@1.3.3(@types/react@19.0.10)(react@19.0.0):
+  use-callback-ref@https://registry.npmmirror.com/use-callback-ref/-/use-callback-ref-1.3.3.tgz:
     resolution: {integrity: sha512-jQL3lRnocaFtu3V00JToYz/4QkNWswxijDaCVNZRiRTO3HQDLsdu1ZtmIUvV4yPp+rvWm5j0y0TG/S61cuijTg==, registry: http://registry.npm.faidev.cc/, tarball: https://registry.npmmirror.com/use-callback-ref/-/use-callback-ref-1.3.3.tgz}
-    id: registry.npmmirror.com/use-callback-ref/1.3.3
     name: use-callback-ref
     version: 1.3.3
     engines: {node: '>=10'}
@@ -1369,15 +944,9 @@ packages:
     peerDependenciesMeta:
       '@types/react':
         optional: true
-    dependencies:
-      '@types/react': registry.npmmirror.com/@types/react@19.0.10
-      react: registry.npmmirror.com/react@19.0.0
-      tslib: registry.npmmirror.com/tslib@2.8.1
-    dev: false
 
-  registry.npmmirror.com/use-composed-ref@1.4.0(@types/react@19.0.10)(react@19.0.0):
+  use-composed-ref@https://registry.npmmirror.com/use-composed-ref/-/use-composed-ref-1.4.0.tgz:
     resolution: {integrity: sha512-djviaxuOOh7wkj0paeO1Q/4wMZ8Zrnag5H6yBvzN7AKKe8beOaED9SF5/ByLqsku8NP4zQqsvM2u3ew/tJK8/w==, registry: http://registry.npm.faidev.cc/, tarball: https://registry.npmmirror.com/use-composed-ref/-/use-composed-ref-1.4.0.tgz}
-    id: registry.npmmirror.com/use-composed-ref/1.4.0
     name: use-composed-ref
     version: 1.4.0
     peerDependencies:
@@ -1386,14 +955,9 @@ packages:
     peerDependenciesMeta:
       '@types/react':
         optional: true
-    dependencies:
-      '@types/react': registry.npmmirror.com/@types/react@19.0.10
-      react: registry.npmmirror.com/react@19.0.0
-    dev: false
 
-  registry.npmmirror.com/use-isomorphic-layout-effect@1.2.0(@types/react@19.0.10)(react@19.0.0):
+  use-isomorphic-layout-effect@https://registry.npmmirror.com/use-isomorphic-layout-effect/-/use-isomorphic-layout-effect-1.2.0.tgz:
     resolution: {integrity: sha512-q6ayo8DWoPZT0VdG4u3D3uxcgONP3Mevx2i2b0434cwWBoL+aelL1DzkXI6w3PhTZzUeR2kaVlZn70iCiseP6w==, registry: http://registry.npm.faidev.cc/, tarball: https://registry.npmmirror.com/use-isomorphic-layout-effect/-/use-isomorphic-layout-effect-1.2.0.tgz}
-    id: registry.npmmirror.com/use-isomorphic-layout-effect/1.2.0
     name: use-isomorphic-layout-effect
     version: 1.2.0
     peerDependencies:
@@ -1402,14 +966,9 @@ packages:
     peerDependenciesMeta:
       '@types/react':
         optional: true
-    dependencies:
-      '@types/react': registry.npmmirror.com/@types/react@19.0.10
-      react: registry.npmmirror.com/react@19.0.0
-    dev: false
 
-  registry.npmmirror.com/use-latest@1.3.0(@types/react@19.0.10)(react@19.0.0):
+  use-latest@https://registry.npmmirror.com/use-latest/-/use-latest-1.3.0.tgz:
     resolution: {integrity: sha512-mhg3xdm9NaM8q+gLT8KryJPnRFOz1/5XPBhmDEVZK1webPzDjrPk7f/mbpeLqTgB9msytYWANxgALOCJKnLvcQ==, registry: http://registry.npm.faidev.cc/, tarball: https://registry.npmmirror.com/use-latest/-/use-latest-1.3.0.tgz}
-    id: registry.npmmirror.com/use-latest/1.3.0
     name: use-latest
     version: 1.3.0
     peerDependencies:
@@ -1418,15 +977,9 @@ packages:
     peerDependenciesMeta:
       '@types/react':
         optional: true
-    dependencies:
-      '@types/react': registry.npmmirror.com/@types/react@19.0.10
-      react: registry.npmmirror.com/react@19.0.0
-      use-isomorphic-layout-effect: registry.npmmirror.com/use-isomorphic-layout-effect@1.2.0(@types/react@19.0.10)(react@19.0.0)
-    dev: false
 
-  registry.npmmirror.com/use-sidecar@1.1.3(@types/react@19.0.10)(react@19.0.0):
+  use-sidecar@https://registry.npmmirror.com/use-sidecar/-/use-sidecar-1.1.3.tgz:
     resolution: {integrity: sha512-Fedw0aZvkhynoPYlA5WXrMCAMm+nSWdZt6lzJQ7Ok8S6Q+VsHmHpRWndVRJ8Be0ZbkfPc5LRYH+5XrzXcEeLRQ==, registry: http://registry.npm.faidev.cc/, tarball: https://registry.npmmirror.com/use-sidecar/-/use-sidecar-1.1.3.tgz}
-    id: registry.npmmirror.com/use-sidecar/1.1.3
     name: use-sidecar
     version: 1.1.3
     engines: {node: '>=10'}
@@ -1436,22 +989,14 @@ packages:
     peerDependenciesMeta:
       '@types/react':
         optional: true
-    dependencies:
-      '@types/react': registry.npmmirror.com/@types/react@19.0.10
-      detect-node-es: registry.npmmirror.com/detect-node-es@1.1.0
-      react: registry.npmmirror.com/react@19.0.0
-      tslib: registry.npmmirror.com/tslib@2.8.1
-    dev: false
 
-  registry.npmmirror.com/util-deprecate@1.0.2:
+  util-deprecate@https://registry.npmmirror.com/util-deprecate/-/util-deprecate-1.0.2.tgz:
     resolution: {integrity: sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==, registry: http://registry.npm.faidev.cc/, tarball: https://registry.npmmirror.com/util-deprecate/-/util-deprecate-1.0.2.tgz}
     name: util-deprecate
     version: 1.0.2
-    dev: true
 
-  registry.npmmirror.com/zustand@5.0.3(@types/react@19.0.10)(react@19.0.0):
+  zustand@https://registry.npmmirror.com/zustand/-/zustand-5.0.3.tgz:
     resolution: {integrity: sha512-14fwWQtU3pH4dE0dOpdMiWjddcH+QzKIgk1cl8epwSE7yag43k/AD/m4L6+K7DytAOr9gGBe3/EXj9g7cdostg==, registry: http://registry.npm.faidev.cc/, tarball: https://registry.npmmirror.com/zustand/-/zustand-5.0.3.tgz}
-    id: registry.npmmirror.com/zustand/5.0.3
     name: zustand
     version: 5.0.3
     engines: {node: '>=12.20.0'}
@@ -1469,7 +1014,551 @@ packages:
         optional: true
       use-sync-external-store:
         optional: true
+
+snapshots:
+
+  '@alloc/quick-lru@https://registry.npmmirror.com/@alloc/quick-lru/-/quick-lru-5.2.0.tgz': {}
+
+  '@babel/runtime@https://registry.npmmirror.com/@babel/runtime/-/runtime-7.26.10.tgz':
     dependencies:
-      '@types/react': registry.npmmirror.com/@types/react@19.0.10
-      react: registry.npmmirror.com/react@19.0.0
-    dev: false
+      regenerator-runtime: https://registry.npmmirror.com/regenerator-runtime/-/regenerator-runtime-0.14.1.tgz
+
+  '@floating-ui/core@https://registry.npmmirror.com/@floating-ui/core/-/core-1.6.9.tgz':
+    dependencies:
+      '@floating-ui/utils': https://registry.npmmirror.com/@floating-ui/utils/-/utils-0.2.9.tgz
+
+  '@floating-ui/dom@https://registry.npmmirror.com/@floating-ui/dom/-/dom-1.6.13.tgz':
+    dependencies:
+      '@floating-ui/core': https://registry.npmmirror.com/@floating-ui/core/-/core-1.6.9.tgz
+      '@floating-ui/utils': https://registry.npmmirror.com/@floating-ui/utils/-/utils-0.2.9.tgz
+
+  '@floating-ui/react-dom@https://registry.npmmirror.com/@floating-ui/react-dom/-/react-dom-2.1.2.tgz(react-dom@19.0.0)(react@19.0.0)':
+    dependencies:
+      '@floating-ui/dom': https://registry.npmmirror.com/@floating-ui/dom/-/dom-1.6.13.tgz
+      react: https://registry.npmmirror.com/react/-/react-19.0.0.tgz
+      react-dom: https://registry.npmmirror.com/react-dom/-/react-dom-19.0.0.tgz(react@19.0.0)
+
+  '@floating-ui/react@https://registry.npmmirror.com/@floating-ui/react/-/react-0.26.28.tgz(react-dom@19.0.0)(react@19.0.0)':
+    dependencies:
+      '@floating-ui/react-dom': https://registry.npmmirror.com/@floating-ui/react-dom/-/react-dom-2.1.2.tgz(react-dom@19.0.0)(react@19.0.0)
+      '@floating-ui/utils': https://registry.npmmirror.com/@floating-ui/utils/-/utils-0.2.9.tgz
+      react: https://registry.npmmirror.com/react/-/react-19.0.0.tgz
+      react-dom: https://registry.npmmirror.com/react-dom/-/react-dom-19.0.0.tgz(react@19.0.0)
+      tabbable: https://registry.npmmirror.com/tabbable/-/tabbable-6.2.0.tgz
+
+  '@floating-ui/utils@https://registry.npmmirror.com/@floating-ui/utils/-/utils-0.2.9.tgz': {}
+
+  '@mantine/core@https://registry.npmmirror.com/@mantine/core/-/core-7.17.2.tgz(@mantine/hooks@7.17.2)(@types/react@19.0.10)(react-dom@19.0.0)(react@19.0.0)':
+    dependencies:
+      '@floating-ui/react': https://registry.npmmirror.com/@floating-ui/react/-/react-0.26.28.tgz(react-dom@19.0.0)(react@19.0.0)
+      '@mantine/hooks': https://registry.npmmirror.com/@mantine/hooks/-/hooks-7.17.2.tgz(react@19.0.0)
+      clsx: https://registry.npmmirror.com/clsx/-/clsx-2.1.1.tgz
+      react: https://registry.npmmirror.com/react/-/react-19.0.0.tgz
+      react-dom: https://registry.npmmirror.com/react-dom/-/react-dom-19.0.0.tgz(react@19.0.0)
+      react-number-format: https://registry.npmmirror.com/react-number-format/-/react-number-format-5.4.3.tgz(react-dom@19.0.0)(react@19.0.0)
+      react-remove-scroll: https://registry.npmmirror.com/react-remove-scroll/-/react-remove-scroll-2.6.3.tgz(@types/react@19.0.10)(react@19.0.0)
+      react-textarea-autosize: https://registry.npmmirror.com/react-textarea-autosize/-/react-textarea-autosize-8.5.6.tgz(@types/react@19.0.10)(react@19.0.0)
+      type-fest: https://registry.npmmirror.com/type-fest/-/type-fest-4.37.0.tgz
+    transitivePeerDependencies:
+      - '@types/react'
+
+  '@mantine/hooks@https://registry.npmmirror.com/@mantine/hooks/-/hooks-7.17.2.tgz(react@19.0.0)':
+    dependencies:
+      react: https://registry.npmmirror.com/react/-/react-19.0.0.tgz
+
+  '@mantinex/mantine-logo@https://registry.npmmirror.com/@mantinex/mantine-logo/-/mantine-logo-1.1.0.tgz(@mantine/core@7.17.2)(@mantine/hooks@7.17.2)(react-dom@19.0.0)(react@19.0.0)':
+    dependencies:
+      '@mantine/core': https://registry.npmmirror.com/@mantine/core/-/core-7.17.2.tgz(@mantine/hooks@7.17.2)(@types/react@19.0.10)(react-dom@19.0.0)(react@19.0.0)
+      '@mantine/hooks': https://registry.npmmirror.com/@mantine/hooks/-/hooks-7.17.2.tgz(react@19.0.0)
+      react: https://registry.npmmirror.com/react/-/react-19.0.0.tgz
+      react-dom: https://registry.npmmirror.com/react-dom/-/react-dom-19.0.0.tgz(react@19.0.0)
+
+  '@module-federation/error-codes@https://registry.npmmirror.com/@module-federation/error-codes/-/error-codes-0.8.4.tgz': {}
+
+  '@module-federation/runtime-tools@https://registry.npmmirror.com/@module-federation/runtime-tools/-/runtime-tools-0.8.4.tgz':
+    dependencies:
+      '@module-federation/runtime': https://registry.npmmirror.com/@module-federation/runtime/-/runtime-0.8.4.tgz
+      '@module-federation/webpack-bundler-runtime': https://registry.npmmirror.com/@module-federation/webpack-bundler-runtime/-/webpack-bundler-runtime-0.8.4.tgz
+
+  '@module-federation/runtime@https://registry.npmmirror.com/@module-federation/runtime/-/runtime-0.8.4.tgz':
+    dependencies:
+      '@module-federation/error-codes': https://registry.npmmirror.com/@module-federation/error-codes/-/error-codes-0.8.4.tgz
+      '@module-federation/sdk': https://registry.npmmirror.com/@module-federation/sdk/-/sdk-0.8.4.tgz
+
+  '@module-federation/sdk@https://registry.npmmirror.com/@module-federation/sdk/-/sdk-0.8.4.tgz':
+    dependencies:
+      isomorphic-rslog: https://registry.npmmirror.com/isomorphic-rslog/-/isomorphic-rslog-0.0.6.tgz
+
+  '@module-federation/webpack-bundler-runtime@https://registry.npmmirror.com/@module-federation/webpack-bundler-runtime/-/webpack-bundler-runtime-0.8.4.tgz':
+    dependencies:
+      '@module-federation/runtime': https://registry.npmmirror.com/@module-federation/runtime/-/runtime-0.8.4.tgz
+      '@module-federation/sdk': https://registry.npmmirror.com/@module-federation/sdk/-/sdk-0.8.4.tgz
+
+  '@nodelib/fs.scandir@https://registry.npmmirror.com/@nodelib/fs.scandir/-/fs.scandir-2.1.5.tgz':
+    dependencies:
+      '@nodelib/fs.stat': https://registry.npmmirror.com/@nodelib/fs.stat/-/fs.stat-2.0.5.tgz
+      run-parallel: https://registry.npmmirror.com/run-parallel/-/run-parallel-1.2.0.tgz
+
+  '@nodelib/fs.stat@https://registry.npmmirror.com/@nodelib/fs.stat/-/fs.stat-2.0.5.tgz': {}
+
+  '@nodelib/fs.walk@https://registry.npmmirror.com/@nodelib/fs.walk/-/fs.walk-1.2.8.tgz':
+    dependencies:
+      '@nodelib/fs.scandir': https://registry.npmmirror.com/@nodelib/fs.scandir/-/fs.scandir-2.1.5.tgz
+      fastq: https://registry.npmmirror.com/fastq/-/fastq-1.19.1.tgz
+
+  '@rsbuild/core@https://registry.npmmirror.com/@rsbuild/core/-/core-1.2.16.tgz':
+    dependencies:
+      '@rspack/core': https://registry.npmmirror.com/@rspack/core/-/core-1.2.7.tgz(@swc/helpers@0.5.15)
+      '@rspack/lite-tapable': https://registry.npmmirror.com/@rspack/lite-tapable/-/lite-tapable-1.0.1.tgz
+      '@swc/helpers': https://registry.npmmirror.com/@swc/helpers/-/helpers-0.5.15.tgz
+      core-js: https://registry.npmmirror.com/core-js/-/core-js-3.41.0.tgz
+      jiti: https://registry.npmmirror.com/jiti/-/jiti-2.4.2.tgz
+    transitivePeerDependencies:
+      - '@rspack/tracing'
+
+  '@rsbuild/plugin-react@https://registry.npmmirror.com/@rsbuild/plugin-react/-/plugin-react-1.1.1.tgz(@rsbuild/core@1.2.16)':
+    dependencies:
+      '@rsbuild/core': https://registry.npmmirror.com/@rsbuild/core/-/core-1.2.16.tgz
+      '@rspack/plugin-react-refresh': https://registry.npmmirror.com/@rspack/plugin-react-refresh/-/plugin-react-refresh-1.0.1.tgz(react-refresh@0.16.0)
+      react-refresh: https://registry.npmmirror.com/react-refresh/-/react-refresh-0.16.0.tgz
+
+  '@rspack/binding-darwin-arm64@https://registry.npmmirror.com/@rspack/binding-darwin-arm64/-/binding-darwin-arm64-1.2.7.tgz':
+    optional: true
+
+  '@rspack/binding-darwin-x64@https://registry.npmmirror.com/@rspack/binding-darwin-x64/-/binding-darwin-x64-1.2.7.tgz':
+    optional: true
+
+  '@rspack/binding-linux-arm64-gnu@https://registry.npmmirror.com/@rspack/binding-linux-arm64-gnu/-/binding-linux-arm64-gnu-1.2.7.tgz':
+    optional: true
+
+  '@rspack/binding-linux-arm64-musl@https://registry.npmmirror.com/@rspack/binding-linux-arm64-musl/-/binding-linux-arm64-musl-1.2.7.tgz':
+    optional: true
+
+  '@rspack/binding-linux-x64-gnu@https://registry.npmmirror.com/@rspack/binding-linux-x64-gnu/-/binding-linux-x64-gnu-1.2.7.tgz':
+    optional: true
+
+  '@rspack/binding-linux-x64-musl@https://registry.npmmirror.com/@rspack/binding-linux-x64-musl/-/binding-linux-x64-musl-1.2.7.tgz':
+    optional: true
+
+  '@rspack/binding-win32-arm64-msvc@https://registry.npmmirror.com/@rspack/binding-win32-arm64-msvc/-/binding-win32-arm64-msvc-1.2.7.tgz':
+    optional: true
+
+  '@rspack/binding-win32-ia32-msvc@https://registry.npmmirror.com/@rspack/binding-win32-ia32-msvc/-/binding-win32-ia32-msvc-1.2.7.tgz':
+    optional: true
+
+  '@rspack/binding-win32-x64-msvc@https://registry.npmmirror.com/@rspack/binding-win32-x64-msvc/-/binding-win32-x64-msvc-1.2.7.tgz':
+    optional: true
+
+  '@rspack/binding@https://registry.npmmirror.com/@rspack/binding/-/binding-1.2.7.tgz':
+    optionalDependencies:
+      '@rspack/binding-darwin-arm64': https://registry.npmmirror.com/@rspack/binding-darwin-arm64/-/binding-darwin-arm64-1.2.7.tgz
+      '@rspack/binding-darwin-x64': https://registry.npmmirror.com/@rspack/binding-darwin-x64/-/binding-darwin-x64-1.2.7.tgz
+      '@rspack/binding-linux-arm64-gnu': https://registry.npmmirror.com/@rspack/binding-linux-arm64-gnu/-/binding-linux-arm64-gnu-1.2.7.tgz
+      '@rspack/binding-linux-arm64-musl': https://registry.npmmirror.com/@rspack/binding-linux-arm64-musl/-/binding-linux-arm64-musl-1.2.7.tgz
+      '@rspack/binding-linux-x64-gnu': https://registry.npmmirror.com/@rspack/binding-linux-x64-gnu/-/binding-linux-x64-gnu-1.2.7.tgz
+      '@rspack/binding-linux-x64-musl': https://registry.npmmirror.com/@rspack/binding-linux-x64-musl/-/binding-linux-x64-musl-1.2.7.tgz
+      '@rspack/binding-win32-arm64-msvc': https://registry.npmmirror.com/@rspack/binding-win32-arm64-msvc/-/binding-win32-arm64-msvc-1.2.7.tgz
+      '@rspack/binding-win32-ia32-msvc': https://registry.npmmirror.com/@rspack/binding-win32-ia32-msvc/-/binding-win32-ia32-msvc-1.2.7.tgz
+      '@rspack/binding-win32-x64-msvc': https://registry.npmmirror.com/@rspack/binding-win32-x64-msvc/-/binding-win32-x64-msvc-1.2.7.tgz
+
+  '@rspack/core@https://registry.npmmirror.com/@rspack/core/-/core-1.2.7.tgz(@swc/helpers@0.5.15)':
+    dependencies:
+      '@module-federation/runtime-tools': https://registry.npmmirror.com/@module-federation/runtime-tools/-/runtime-tools-0.8.4.tgz
+      '@rspack/binding': https://registry.npmmirror.com/@rspack/binding/-/binding-1.2.7.tgz
+      '@rspack/lite-tapable': https://registry.npmmirror.com/@rspack/lite-tapable/-/lite-tapable-1.0.1.tgz
+      '@swc/helpers': https://registry.npmmirror.com/@swc/helpers/-/helpers-0.5.15.tgz
+      caniuse-lite: https://registry.npmmirror.com/caniuse-lite/-/caniuse-lite-1.0.30001706.tgz
+
+  '@rspack/lite-tapable@https://registry.npmmirror.com/@rspack/lite-tapable/-/lite-tapable-1.0.1.tgz': {}
+
+  '@rspack/plugin-react-refresh@https://registry.npmmirror.com/@rspack/plugin-react-refresh/-/plugin-react-refresh-1.0.1.tgz(react-refresh@0.16.0)':
+    dependencies:
+      error-stack-parser: https://registry.npmmirror.com/error-stack-parser/-/error-stack-parser-2.1.4.tgz
+      html-entities: https://registry.npmmirror.com/html-entities/-/html-entities-2.5.2.tgz
+      react-refresh: https://registry.npmmirror.com/react-refresh/-/react-refresh-0.16.0.tgz
+
+  '@swc/helpers@https://registry.npmmirror.com/@swc/helpers/-/helpers-0.5.15.tgz':
+    dependencies:
+      tslib: https://registry.npmmirror.com/tslib/-/tslib-2.8.1.tgz
+
+  '@tailwindcss/node@https://registry.npmmirror.com/@tailwindcss/node/-/node-4.0.14.tgz':
+    dependencies:
+      enhanced-resolve: https://registry.npmmirror.com/enhanced-resolve/-/enhanced-resolve-5.18.1.tgz
+      jiti: https://registry.npmmirror.com/jiti/-/jiti-2.4.2.tgz
+      tailwindcss: https://registry.npmmirror.com/tailwindcss/-/tailwindcss-4.0.14.tgz
+
+  '@tailwindcss/oxide-android-arm64@https://registry.npmmirror.com/@tailwindcss/oxide-android-arm64/-/oxide-android-arm64-4.0.14.tgz':
+    optional: true
+
+  '@tailwindcss/oxide-darwin-arm64@https://registry.npmmirror.com/@tailwindcss/oxide-darwin-arm64/-/oxide-darwin-arm64-4.0.14.tgz':
+    optional: true
+
+  '@tailwindcss/oxide-darwin-x64@https://registry.npmmirror.com/@tailwindcss/oxide-darwin-x64/-/oxide-darwin-x64-4.0.14.tgz':
+    optional: true
+
+  '@tailwindcss/oxide-freebsd-x64@https://registry.npmmirror.com/@tailwindcss/oxide-freebsd-x64/-/oxide-freebsd-x64-4.0.14.tgz':
+    optional: true
+
+  '@tailwindcss/oxide-linux-arm-gnueabihf@https://registry.npmmirror.com/@tailwindcss/oxide-linux-arm-gnueabihf/-/oxide-linux-arm-gnueabihf-4.0.14.tgz':
+    optional: true
+
+  '@tailwindcss/oxide-linux-arm64-gnu@https://registry.npmmirror.com/@tailwindcss/oxide-linux-arm64-gnu/-/oxide-linux-arm64-gnu-4.0.14.tgz':
+    optional: true
+
+  '@tailwindcss/oxide-linux-arm64-musl@https://registry.npmmirror.com/@tailwindcss/oxide-linux-arm64-musl/-/oxide-linux-arm64-musl-4.0.14.tgz':
+    optional: true
+
+  '@tailwindcss/oxide-linux-x64-gnu@https://registry.npmmirror.com/@tailwindcss/oxide-linux-x64-gnu/-/oxide-linux-x64-gnu-4.0.14.tgz':
+    optional: true
+
+  '@tailwindcss/oxide-linux-x64-musl@https://registry.npmmirror.com/@tailwindcss/oxide-linux-x64-musl/-/oxide-linux-x64-musl-4.0.14.tgz':
+    optional: true
+
+  '@tailwindcss/oxide-win32-arm64-msvc@https://registry.npmmirror.com/@tailwindcss/oxide-win32-arm64-msvc/-/oxide-win32-arm64-msvc-4.0.14.tgz':
+    optional: true
+
+  '@tailwindcss/oxide-win32-x64-msvc@https://registry.npmmirror.com/@tailwindcss/oxide-win32-x64-msvc/-/oxide-win32-x64-msvc-4.0.14.tgz':
+    optional: true
+
+  '@tailwindcss/oxide@https://registry.npmmirror.com/@tailwindcss/oxide/-/oxide-4.0.14.tgz':
+    optionalDependencies:
+      '@tailwindcss/oxide-android-arm64': https://registry.npmmirror.com/@tailwindcss/oxide-android-arm64/-/oxide-android-arm64-4.0.14.tgz
+      '@tailwindcss/oxide-darwin-arm64': https://registry.npmmirror.com/@tailwindcss/oxide-darwin-arm64/-/oxide-darwin-arm64-4.0.14.tgz
+      '@tailwindcss/oxide-darwin-x64': https://registry.npmmirror.com/@tailwindcss/oxide-darwin-x64/-/oxide-darwin-x64-4.0.14.tgz
+      '@tailwindcss/oxide-freebsd-x64': https://registry.npmmirror.com/@tailwindcss/oxide-freebsd-x64/-/oxide-freebsd-x64-4.0.14.tgz
+      '@tailwindcss/oxide-linux-arm-gnueabihf': https://registry.npmmirror.com/@tailwindcss/oxide-linux-arm-gnueabihf/-/oxide-linux-arm-gnueabihf-4.0.14.tgz
+      '@tailwindcss/oxide-linux-arm64-gnu': https://registry.npmmirror.com/@tailwindcss/oxide-linux-arm64-gnu/-/oxide-linux-arm64-gnu-4.0.14.tgz
+      '@tailwindcss/oxide-linux-arm64-musl': https://registry.npmmirror.com/@tailwindcss/oxide-linux-arm64-musl/-/oxide-linux-arm64-musl-4.0.14.tgz
+      '@tailwindcss/oxide-linux-x64-gnu': https://registry.npmmirror.com/@tailwindcss/oxide-linux-x64-gnu/-/oxide-linux-x64-gnu-4.0.14.tgz
+      '@tailwindcss/oxide-linux-x64-musl': https://registry.npmmirror.com/@tailwindcss/oxide-linux-x64-musl/-/oxide-linux-x64-musl-4.0.14.tgz
+      '@tailwindcss/oxide-win32-arm64-msvc': https://registry.npmmirror.com/@tailwindcss/oxide-win32-arm64-msvc/-/oxide-win32-arm64-msvc-4.0.14.tgz
+      '@tailwindcss/oxide-win32-x64-msvc': https://registry.npmmirror.com/@tailwindcss/oxide-win32-x64-msvc/-/oxide-win32-x64-msvc-4.0.14.tgz
+
+  '@tailwindcss/postcss@https://registry.npmmirror.com/@tailwindcss/postcss/-/postcss-4.0.14.tgz':
+    dependencies:
+      '@alloc/quick-lru': https://registry.npmmirror.com/@alloc/quick-lru/-/quick-lru-5.2.0.tgz
+      '@tailwindcss/node': https://registry.npmmirror.com/@tailwindcss/node/-/node-4.0.14.tgz
+      '@tailwindcss/oxide': https://registry.npmmirror.com/@tailwindcss/oxide/-/oxide-4.0.14.tgz
+      lightningcss: https://registry.npmmirror.com/lightningcss/-/lightningcss-1.29.2.tgz
+      postcss: https://registry.npmmirror.com/postcss/-/postcss-8.5.3.tgz
+      tailwindcss: https://registry.npmmirror.com/tailwindcss/-/tailwindcss-4.0.14.tgz
+
+  '@tweenjs/tween.js@https://registry.npmmirror.com/@tweenjs/tween.js/-/tween.js-23.1.3.tgz': {}
+
+  '@types/node@https://registry.npmmirror.com/@types/node/-/node-22.13.10.tgz':
+    dependencies:
+      undici-types: https://registry.npmmirror.com/undici-types/-/undici-types-6.20.0.tgz
+
+  '@types/react-dom@https://registry.npmmirror.com/@types/react-dom/-/react-dom-19.0.4.tgz(@types/react@19.0.10)':
+    dependencies:
+      '@types/react': https://registry.npmmirror.com/@types/react/-/react-19.0.10.tgz
+
+  '@types/react@https://registry.npmmirror.com/@types/react/-/react-19.0.10.tgz':
+    dependencies:
+      csstype: https://registry.npmmirror.com/csstype/-/csstype-3.1.3.tgz
+
+  '@types/stats.js@https://registry.npmmirror.com/@types/stats.js/-/stats.js-0.17.3.tgz': {}
+
+  '@types/three@https://registry.npmmirror.com/@types/three/-/three-0.174.0.tgz':
+    dependencies:
+      '@tweenjs/tween.js': https://registry.npmmirror.com/@tweenjs/tween.js/-/tween.js-23.1.3.tgz
+      '@types/stats.js': https://registry.npmmirror.com/@types/stats.js/-/stats.js-0.17.3.tgz
+      '@types/webxr': https://registry.npmmirror.com/@types/webxr/-/webxr-0.5.21.tgz
+      '@webgpu/types': https://registry.npmmirror.com/@webgpu/types/-/types-0.1.56.tgz
+      fflate: https://registry.npmmirror.com/fflate/-/fflate-0.8.2.tgz
+      meshoptimizer: https://registry.npmmirror.com/meshoptimizer/-/meshoptimizer-0.18.1.tgz
+
+  '@types/webxr@https://registry.npmmirror.com/@types/webxr/-/webxr-0.5.21.tgz': {}
+
+  '@webgpu/types@https://registry.npmmirror.com/@webgpu/types/-/types-0.1.56.tgz': {}
+
+  braces@https://registry.npmmirror.com/braces/-/braces-3.0.3.tgz:
+    dependencies:
+      fill-range: https://registry.npmmirror.com/fill-range/-/fill-range-7.1.1.tgz
+
+  camelcase-css@https://registry.npmmirror.com/camelcase-css/-/camelcase-css-2.0.1.tgz: {}
+
+  caniuse-lite@https://registry.npmmirror.com/caniuse-lite/-/caniuse-lite-1.0.30001706.tgz: {}
+
+  clsx@https://registry.npmmirror.com/clsx/-/clsx-2.1.1.tgz: {}
+
+  core-js@https://registry.npmmirror.com/core-js/-/core-js-3.41.0.tgz: {}
+
+  cssesc@https://registry.npmmirror.com/cssesc/-/cssesc-3.0.0.tgz: {}
+
+  csstype@https://registry.npmmirror.com/csstype/-/csstype-3.1.3.tgz: {}
+
+  detect-libc@https://registry.npmmirror.com/detect-libc/-/detect-libc-2.0.3.tgz: {}
+
+  detect-node-es@https://registry.npmmirror.com/detect-node-es/-/detect-node-es-1.1.0.tgz: {}
+
+  enhanced-resolve@https://registry.npmmirror.com/enhanced-resolve/-/enhanced-resolve-5.18.1.tgz:
+    dependencies:
+      graceful-fs: https://registry.npmmirror.com/graceful-fs/-/graceful-fs-4.2.11.tgz
+      tapable: https://registry.npmmirror.com/tapable/-/tapable-2.2.1.tgz
+
+  error-stack-parser@https://registry.npmmirror.com/error-stack-parser/-/error-stack-parser-2.1.4.tgz:
+    dependencies:
+      stackframe: https://registry.npmmirror.com/stackframe/-/stackframe-1.3.4.tgz
+
+  fast-glob@https://registry.npmmirror.com/fast-glob/-/fast-glob-3.3.3.tgz:
+    dependencies:
+      '@nodelib/fs.stat': https://registry.npmmirror.com/@nodelib/fs.stat/-/fs.stat-2.0.5.tgz
+      '@nodelib/fs.walk': https://registry.npmmirror.com/@nodelib/fs.walk/-/fs.walk-1.2.8.tgz
+      glob-parent: https://registry.npmmirror.com/glob-parent/-/glob-parent-5.1.2.tgz
+      merge2: https://registry.npmmirror.com/merge2/-/merge2-1.4.1.tgz
+      micromatch: https://registry.npmmirror.com/micromatch/-/micromatch-4.0.8.tgz
+
+  fastq@https://registry.npmmirror.com/fastq/-/fastq-1.19.1.tgz:
+    dependencies:
+      reusify: https://registry.npmmirror.com/reusify/-/reusify-1.1.0.tgz
+
+  fflate@https://registry.npmmirror.com/fflate/-/fflate-0.8.2.tgz: {}
+
+  fill-range@https://registry.npmmirror.com/fill-range/-/fill-range-7.1.1.tgz:
+    dependencies:
+      to-regex-range: https://registry.npmmirror.com/to-regex-range/-/to-regex-range-5.0.1.tgz
+
+  get-nonce@https://registry.npmmirror.com/get-nonce/-/get-nonce-1.0.1.tgz: {}
+
+  glob-parent@https://registry.npmmirror.com/glob-parent/-/glob-parent-5.1.2.tgz:
+    dependencies:
+      is-glob: https://registry.npmmirror.com/is-glob/-/is-glob-4.0.3.tgz
+
+  graceful-fs@https://registry.npmmirror.com/graceful-fs/-/graceful-fs-4.2.11.tgz: {}
+
+  html-entities@https://registry.npmmirror.com/html-entities/-/html-entities-2.5.2.tgz: {}
+
+  is-extglob@https://registry.npmmirror.com/is-extglob/-/is-extglob-2.1.1.tgz: {}
+
+  is-glob@https://registry.npmmirror.com/is-glob/-/is-glob-4.0.3.tgz:
+    dependencies:
+      is-extglob: https://registry.npmmirror.com/is-extglob/-/is-extglob-2.1.1.tgz
+
+  is-number@https://registry.npmmirror.com/is-number/-/is-number-7.0.0.tgz: {}
+
+  isomorphic-rslog@https://registry.npmmirror.com/isomorphic-rslog/-/isomorphic-rslog-0.0.6.tgz: {}
+
+  jiti@https://registry.npmmirror.com/jiti/-/jiti-2.4.2.tgz: {}
+
+  lightningcss-darwin-arm64@https://registry.npmmirror.com/lightningcss-darwin-arm64/-/lightningcss-darwin-arm64-1.29.2.tgz:
+    optional: true
+
+  lightningcss-darwin-x64@https://registry.npmmirror.com/lightningcss-darwin-x64/-/lightningcss-darwin-x64-1.29.2.tgz:
+    optional: true
+
+  lightningcss-freebsd-x64@https://registry.npmmirror.com/lightningcss-freebsd-x64/-/lightningcss-freebsd-x64-1.29.2.tgz:
+    optional: true
+
+  lightningcss-linux-arm-gnueabihf@https://registry.npmmirror.com/lightningcss-linux-arm-gnueabihf/-/lightningcss-linux-arm-gnueabihf-1.29.2.tgz:
+    optional: true
+
+  lightningcss-linux-arm64-gnu@https://registry.npmmirror.com/lightningcss-linux-arm64-gnu/-/lightningcss-linux-arm64-gnu-1.29.2.tgz:
+    optional: true
+
+  lightningcss-linux-arm64-musl@https://registry.npmmirror.com/lightningcss-linux-arm64-musl/-/lightningcss-linux-arm64-musl-1.29.2.tgz:
+    optional: true
+
+  lightningcss-linux-x64-gnu@https://registry.npmmirror.com/lightningcss-linux-x64-gnu/-/lightningcss-linux-x64-gnu-1.29.2.tgz:
+    optional: true
+
+  lightningcss-linux-x64-musl@https://registry.npmmirror.com/lightningcss-linux-x64-musl/-/lightningcss-linux-x64-musl-1.29.2.tgz:
+    optional: true
+
+  lightningcss-win32-arm64-msvc@https://registry.npmmirror.com/lightningcss-win32-arm64-msvc/-/lightningcss-win32-arm64-msvc-1.29.2.tgz:
+    optional: true
+
+  lightningcss-win32-x64-msvc@https://registry.npmmirror.com/lightningcss-win32-x64-msvc/-/lightningcss-win32-x64-msvc-1.29.2.tgz:
+    optional: true
+
+  lightningcss@https://registry.npmmirror.com/lightningcss/-/lightningcss-1.29.2.tgz:
+    dependencies:
+      detect-libc: https://registry.npmmirror.com/detect-libc/-/detect-libc-2.0.3.tgz
+    optionalDependencies:
+      lightningcss-darwin-arm64: https://registry.npmmirror.com/lightningcss-darwin-arm64/-/lightningcss-darwin-arm64-1.29.2.tgz
+      lightningcss-darwin-x64: https://registry.npmmirror.com/lightningcss-darwin-x64/-/lightningcss-darwin-x64-1.29.2.tgz
+      lightningcss-freebsd-x64: https://registry.npmmirror.com/lightningcss-freebsd-x64/-/lightningcss-freebsd-x64-1.29.2.tgz
+      lightningcss-linux-arm-gnueabihf: https://registry.npmmirror.com/lightningcss-linux-arm-gnueabihf/-/lightningcss-linux-arm-gnueabihf-1.29.2.tgz
+      lightningcss-linux-arm64-gnu: https://registry.npmmirror.com/lightningcss-linux-arm64-gnu/-/lightningcss-linux-arm64-gnu-1.29.2.tgz
+      lightningcss-linux-arm64-musl: https://registry.npmmirror.com/lightningcss-linux-arm64-musl/-/lightningcss-linux-arm64-musl-1.29.2.tgz
+      lightningcss-linux-x64-gnu: https://registry.npmmirror.com/lightningcss-linux-x64-gnu/-/lightningcss-linux-x64-gnu-1.29.2.tgz
+      lightningcss-linux-x64-musl: https://registry.npmmirror.com/lightningcss-linux-x64-musl/-/lightningcss-linux-x64-musl-1.29.2.tgz
+      lightningcss-win32-arm64-msvc: https://registry.npmmirror.com/lightningcss-win32-arm64-msvc/-/lightningcss-win32-arm64-msvc-1.29.2.tgz
+      lightningcss-win32-x64-msvc: https://registry.npmmirror.com/lightningcss-win32-x64-msvc/-/lightningcss-win32-x64-msvc-1.29.2.tgz
+
+  merge2@https://registry.npmmirror.com/merge2/-/merge2-1.4.1.tgz: {}
+
+  meshoptimizer@https://registry.npmmirror.com/meshoptimizer/-/meshoptimizer-0.18.1.tgz: {}
+
+  micromatch@https://registry.npmmirror.com/micromatch/-/micromatch-4.0.8.tgz:
+    dependencies:
+      braces: https://registry.npmmirror.com/braces/-/braces-3.0.3.tgz
+      picomatch: https://registry.npmmirror.com/picomatch/-/picomatch-2.3.1.tgz
+
+  nanoid@https://registry.npmmirror.com/nanoid/-/nanoid-3.3.10.tgz: {}
+
+  picocolors@https://registry.npmmirror.com/picocolors/-/picocolors-1.1.1.tgz: {}
+
+  picomatch@https://registry.npmmirror.com/picomatch/-/picomatch-2.3.1.tgz: {}
+
+  postcss-js@https://registry.npmmirror.com/postcss-js/-/postcss-js-4.0.1.tgz(postcss@8.5.3):
+    dependencies:
+      camelcase-css: https://registry.npmmirror.com/camelcase-css/-/camelcase-css-2.0.1.tgz
+      postcss: https://registry.npmmirror.com/postcss/-/postcss-8.5.3.tgz
+
+  postcss-mixins@https://registry.npmmirror.com/postcss-mixins/-/postcss-mixins-9.0.4.tgz(postcss@8.5.3):
+    dependencies:
+      fast-glob: https://registry.npmmirror.com/fast-glob/-/fast-glob-3.3.3.tgz
+      postcss: https://registry.npmmirror.com/postcss/-/postcss-8.5.3.tgz
+      postcss-js: https://registry.npmmirror.com/postcss-js/-/postcss-js-4.0.1.tgz(postcss@8.5.3)
+      postcss-simple-vars: https://registry.npmmirror.com/postcss-simple-vars/-/postcss-simple-vars-7.0.1.tgz(postcss@8.5.3)
+      sugarss: https://registry.npmmirror.com/sugarss/-/sugarss-4.0.1.tgz(postcss@8.5.3)
+
+  postcss-nested@https://registry.npmmirror.com/postcss-nested/-/postcss-nested-6.2.0.tgz(postcss@8.5.3):
+    dependencies:
+      postcss: https://registry.npmmirror.com/postcss/-/postcss-8.5.3.tgz
+      postcss-selector-parser: https://registry.npmmirror.com/postcss-selector-parser/-/postcss-selector-parser-6.1.2.tgz
+
+  postcss-preset-mantine@https://registry.npmmirror.com/postcss-preset-mantine/-/postcss-preset-mantine-1.17.0.tgz(postcss@8.5.3):
+    dependencies:
+      postcss: https://registry.npmmirror.com/postcss/-/postcss-8.5.3.tgz
+      postcss-mixins: https://registry.npmmirror.com/postcss-mixins/-/postcss-mixins-9.0.4.tgz(postcss@8.5.3)
+      postcss-nested: https://registry.npmmirror.com/postcss-nested/-/postcss-nested-6.2.0.tgz(postcss@8.5.3)
+
+  postcss-selector-parser@https://registry.npmmirror.com/postcss-selector-parser/-/postcss-selector-parser-6.1.2.tgz:
+    dependencies:
+      cssesc: https://registry.npmmirror.com/cssesc/-/cssesc-3.0.0.tgz
+      util-deprecate: https://registry.npmmirror.com/util-deprecate/-/util-deprecate-1.0.2.tgz
+
+  postcss-simple-vars@https://registry.npmmirror.com/postcss-simple-vars/-/postcss-simple-vars-7.0.1.tgz(postcss@8.5.3):
+    dependencies:
+      postcss: https://registry.npmmirror.com/postcss/-/postcss-8.5.3.tgz
+
+  postcss@https://registry.npmmirror.com/postcss/-/postcss-8.5.3.tgz:
+    dependencies:
+      nanoid: https://registry.npmmirror.com/nanoid/-/nanoid-3.3.10.tgz
+      picocolors: https://registry.npmmirror.com/picocolors/-/picocolors-1.1.1.tgz
+      source-map-js: https://registry.npmmirror.com/source-map-js/-/source-map-js-1.2.1.tgz
+
+  queue-microtask@https://registry.npmmirror.com/queue-microtask/-/queue-microtask-1.2.3.tgz: {}
+
+  react-dom@https://registry.npmmirror.com/react-dom/-/react-dom-19.0.0.tgz(react@19.0.0):
+    dependencies:
+      react: https://registry.npmmirror.com/react/-/react-19.0.0.tgz
+      scheduler: https://registry.npmmirror.com/scheduler/-/scheduler-0.25.0.tgz
+
+  react-number-format@https://registry.npmmirror.com/react-number-format/-/react-number-format-5.4.3.tgz(react-dom@19.0.0)(react@19.0.0):
+    dependencies:
+      react: https://registry.npmmirror.com/react/-/react-19.0.0.tgz
+      react-dom: https://registry.npmmirror.com/react-dom/-/react-dom-19.0.0.tgz(react@19.0.0)
+
+  react-refresh@https://registry.npmmirror.com/react-refresh/-/react-refresh-0.16.0.tgz: {}
+
+  react-remove-scroll-bar@https://registry.npmmirror.com/react-remove-scroll-bar/-/react-remove-scroll-bar-2.3.8.tgz(@types/react@19.0.10)(react@19.0.0):
+    dependencies:
+      '@types/react': https://registry.npmmirror.com/@types/react/-/react-19.0.10.tgz
+      react: https://registry.npmmirror.com/react/-/react-19.0.0.tgz
+      react-style-singleton: https://registry.npmmirror.com/react-style-singleton/-/react-style-singleton-2.2.3.tgz(@types/react@19.0.10)(react@19.0.0)
+      tslib: https://registry.npmmirror.com/tslib/-/tslib-2.8.1.tgz
+
+  react-remove-scroll@https://registry.npmmirror.com/react-remove-scroll/-/react-remove-scroll-2.6.3.tgz(@types/react@19.0.10)(react@19.0.0):
+    dependencies:
+      '@types/react': https://registry.npmmirror.com/@types/react/-/react-19.0.10.tgz
+      react: https://registry.npmmirror.com/react/-/react-19.0.0.tgz
+      react-remove-scroll-bar: https://registry.npmmirror.com/react-remove-scroll-bar/-/react-remove-scroll-bar-2.3.8.tgz(@types/react@19.0.10)(react@19.0.0)
+      react-style-singleton: https://registry.npmmirror.com/react-style-singleton/-/react-style-singleton-2.2.3.tgz(@types/react@19.0.10)(react@19.0.0)
+      tslib: https://registry.npmmirror.com/tslib/-/tslib-2.8.1.tgz
+      use-callback-ref: https://registry.npmmirror.com/use-callback-ref/-/use-callback-ref-1.3.3.tgz(@types/react@19.0.10)(react@19.0.0)
+      use-sidecar: https://registry.npmmirror.com/use-sidecar/-/use-sidecar-1.1.3.tgz(@types/react@19.0.10)(react@19.0.0)
+
+  react-style-singleton@https://registry.npmmirror.com/react-style-singleton/-/react-style-singleton-2.2.3.tgz(@types/react@19.0.10)(react@19.0.0):
+    dependencies:
+      '@types/react': https://registry.npmmirror.com/@types/react/-/react-19.0.10.tgz
+      get-nonce: https://registry.npmmirror.com/get-nonce/-/get-nonce-1.0.1.tgz
+      react: https://registry.npmmirror.com/react/-/react-19.0.0.tgz
+      tslib: https://registry.npmmirror.com/tslib/-/tslib-2.8.1.tgz
+
+  react-textarea-autosize@https://registry.npmmirror.com/react-textarea-autosize/-/react-textarea-autosize-8.5.6.tgz(@types/react@19.0.10)(react@19.0.0):
+    dependencies:
+      '@babel/runtime': https://registry.npmmirror.com/@babel/runtime/-/runtime-7.26.10.tgz
+      react: https://registry.npmmirror.com/react/-/react-19.0.0.tgz
+      use-composed-ref: https://registry.npmmirror.com/use-composed-ref/-/use-composed-ref-1.4.0.tgz(@types/react@19.0.10)(react@19.0.0)
+      use-latest: https://registry.npmmirror.com/use-latest/-/use-latest-1.3.0.tgz(@types/react@19.0.10)(react@19.0.0)
+    transitivePeerDependencies:
+      - '@types/react'
+
+  react@https://registry.npmmirror.com/react/-/react-19.0.0.tgz: {}
+
+  regenerator-runtime@https://registry.npmmirror.com/regenerator-runtime/-/regenerator-runtime-0.14.1.tgz: {}
+
+  reusify@https://registry.npmmirror.com/reusify/-/reusify-1.1.0.tgz: {}
+
+  run-parallel@https://registry.npmmirror.com/run-parallel/-/run-parallel-1.2.0.tgz:
+    dependencies:
+      queue-microtask: https://registry.npmmirror.com/queue-microtask/-/queue-microtask-1.2.3.tgz
+
+  scheduler@https://registry.npmmirror.com/scheduler/-/scheduler-0.25.0.tgz: {}
+
+  source-map-js@https://registry.npmmirror.com/source-map-js/-/source-map-js-1.2.1.tgz: {}
+
+  stackframe@https://registry.npmmirror.com/stackframe/-/stackframe-1.3.4.tgz: {}
+
+  sugarss@https://registry.npmmirror.com/sugarss/-/sugarss-4.0.1.tgz(postcss@8.5.3):
+    dependencies:
+      postcss: https://registry.npmmirror.com/postcss/-/postcss-8.5.3.tgz
+
+  tabbable@https://registry.npmmirror.com/tabbable/-/tabbable-6.2.0.tgz: {}
+
+  tailwindcss@https://registry.npmmirror.com/tailwindcss/-/tailwindcss-4.0.14.tgz: {}
+
+  tapable@https://registry.npmmirror.com/tapable/-/tapable-2.2.1.tgz: {}
+
+  three@https://registry.npmmirror.com/three/-/three-0.174.0.tgz: {}
+
+  to-regex-range@https://registry.npmmirror.com/to-regex-range/-/to-regex-range-5.0.1.tgz:
+    dependencies:
+      is-number: https://registry.npmmirror.com/is-number/-/is-number-7.0.0.tgz
+
+  tslib@https://registry.npmmirror.com/tslib/-/tslib-2.8.1.tgz: {}
+
+  type-fest@https://registry.npmmirror.com/type-fest/-/type-fest-4.37.0.tgz: {}
+
+  typescript@https://registry.npmmirror.com/typescript/-/typescript-5.8.2.tgz: {}
+
+  undici-types@https://registry.npmmirror.com/undici-types/-/undici-types-6.20.0.tgz: {}
+
+  use-callback-ref@https://registry.npmmirror.com/use-callback-ref/-/use-callback-ref-1.3.3.tgz(@types/react@19.0.10)(react@19.0.0):
+    dependencies:
+      '@types/react': https://registry.npmmirror.com/@types/react/-/react-19.0.10.tgz
+      react: https://registry.npmmirror.com/react/-/react-19.0.0.tgz
+      tslib: https://registry.npmmirror.com/tslib/-/tslib-2.8.1.tgz
+
+  use-composed-ref@https://registry.npmmirror.com/use-composed-ref/-/use-composed-ref-1.4.0.tgz(@types/react@19.0.10)(react@19.0.0):
+    dependencies:
+      '@types/react': https://registry.npmmirror.com/@types/react/-/react-19.0.10.tgz
+      react: https://registry.npmmirror.com/react/-/react-19.0.0.tgz
+
+  use-isomorphic-layout-effect@https://registry.npmmirror.com/use-isomorphic-layout-effect/-/use-isomorphic-layout-effect-1.2.0.tgz(@types/react@19.0.10)(react@19.0.0):
+    dependencies:
+      '@types/react': https://registry.npmmirror.com/@types/react/-/react-19.0.10.tgz
+      react: https://registry.npmmirror.com/react/-/react-19.0.0.tgz
+
+  use-latest@https://registry.npmmirror.com/use-latest/-/use-latest-1.3.0.tgz(@types/react@19.0.10)(react@19.0.0):
+    dependencies:
+      '@types/react': https://registry.npmmirror.com/@types/react/-/react-19.0.10.tgz
+      react: https://registry.npmmirror.com/react/-/react-19.0.0.tgz
+      use-isomorphic-layout-effect: https://registry.npmmirror.com/use-isomorphic-layout-effect/-/use-isomorphic-layout-effect-1.2.0.tgz(@types/react@19.0.10)(react@19.0.0)
+
+  use-sidecar@https://registry.npmmirror.com/use-sidecar/-/use-sidecar-1.1.3.tgz(@types/react@19.0.10)(react@19.0.0):
+    dependencies:
+      '@types/react': https://registry.npmmirror.com/@types/react/-/react-19.0.10.tgz
+      detect-node-es: https://registry.npmmirror.com/detect-node-es/-/detect-node-es-1.1.0.tgz
+      react: https://registry.npmmirror.com/react/-/react-19.0.0.tgz
+      tslib: https://registry.npmmirror.com/tslib/-/tslib-2.8.1.tgz
+
+  util-deprecate@https://registry.npmmirror.com/util-deprecate/-/util-deprecate-1.0.2.tgz: {}
+
+  zustand@https://registry.npmmirror.com/zustand/-/zustand-5.0.3.tgz(@types/react@19.0.10)(react@19.0.0):
+    dependencies:
+      '@types/react': https://registry.npmmirror.com/@types/react/-/react-19.0.10.tgz
+      react: https://registry.npmmirror.com/react/-/react-19.0.0.tgz
