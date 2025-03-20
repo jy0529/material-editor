@@ -9,6 +9,7 @@ import { EffectComposer } from "three/addons/postprocessing/EffectComposer.js";
 import { RenderPass } from "three/addons/postprocessing/RenderPass.js";
 import { OutlinePass } from "three/addons/postprocessing/OutlinePass.js";
 import { OutputPass } from "three/addons/postprocessing/OutputPass.js";
+import { degToRad } from "three/src/math/MathUtils.js";
 
 export class EditorView implements IEditorView {
     container: HTMLDivElement
@@ -27,18 +28,12 @@ export class EditorView implements IEditorView {
         this.container = container
     }
 
-
     async init(): Promise<void> {
         this.initRenderer();
         this.initCamera();
         this.initScene();
         this.initControls();
         this.addEventListeners();
-        if (this.camera) {
-            this.camera.position.set(0, 5, 10);
-            this.camera.lookAt(0, 0, 0);
-        }
-
         this.createLight();
 
         await this.loadModel({ filePath: 'threeFiles/glbs/su7.glb' });
@@ -51,8 +46,8 @@ export class EditorView implements IEditorView {
 
     private initRenderer(): void {
         this.renderer = new WebGLRenderer({
-            antialias: true,
-            alpha: true,
+            antialias: true, // 抗锯齿
+            alpha: true, // 透明
         })
         this.renderer.setPixelRatio(window.devicePixelRatio)
         this.renderer.setSize(this.container.clientWidth, this.container.clientHeight)
@@ -60,21 +55,17 @@ export class EditorView implements IEditorView {
     }
 
     private initCamera(): void {
-        this.camera = new PerspectiveCamera(30, this.container.clientWidth / this.container.clientHeight, 1, 10000)
+        this.camera = new PerspectiveCamera(20, this.container.clientWidth / this.container.clientHeight, 1, 10000)
+        this.camera.position.set(0, 5, 10);
     }
 
     private initScene(): void {
         this.scene = new Scene();
-        this.scene.backgroundIntensity = 1;
-        this.scene.backgroundBlurriness = 1;
     }
 
     private initControls(): void {
         this.controls = new OrbitControls(this.camera as PerspectiveCamera, this.renderer?.domElement as HTMLCanvasElement)
-        this.controls.enablePan = false;
-        this.controls.enableDamping = true;
-        this.controls.target.set(0, 0, 0);
-        this.controls.update();
+        this.controls.enableDamping = true; // 惯性
     }
 
     private addEventListeners(): void {
@@ -113,7 +104,7 @@ export class EditorView implements IEditorView {
                         this.logger.log('模型加载成功:', gltf);
                         this.model = gltf.scene;
 
-                        this.model.position.set(0, 0, 0);
+                        this.model.rotation.set(0, degToRad(-90), 0);
 
                         this.model.traverse((child: any) => {
                             if (child.isMesh) {
@@ -172,17 +163,21 @@ export class EditorView implements IEditorView {
         this.outlinePass.selectedObjects = [mesh];
     }
 
-    setMap( map: any): void {
+    setMap(map: any): void {
         if (!this.scene) return;
         const mesh = getEditorStore().selectedMesh;
-        const texture = new TextureLoader().load(map.url);
-        const newMaterial = mesh.material.clone();
-
-        newMaterial.map = texture;
-        mesh.material = newMaterial;
-        mesh.mapId = map.id;
-        mesh.meshFrom = map.id;
-        texture.dispose();
+        new TextureLoader().load(map.url, (texture) => {
+            const newMaterial = mesh.material.clone();
+            newMaterial.map = texture;
+            // 如果存在旧材质的纹理，先释放它
+            if (mesh.material.map) {
+                mesh.material.map.dispose();
+            }
+            // apply
+            mesh.material = newMaterial;
+            mesh.mapId = map.id;
+            mesh.meshFrom = map.id;
+        });
     }
 
     private animate(): void {

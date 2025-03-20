@@ -8,7 +8,7 @@ export default function MaterialPanel() {
     return (
         <section className="material-panel mx-1 ml-2">
             <Title order={3}>当前模型：</Title>
-            <Grid gutter={10}>
+            <Grid gutter={10} className="mt-2">
                 {MaterialModels.map((model) => (
                     <Grid.Col span={6} key={model.id}>
                         <Image src={model.icon} alt={model.name} />

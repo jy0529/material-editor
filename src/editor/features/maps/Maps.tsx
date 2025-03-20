@@ -54,7 +54,6 @@ const maps: SystemMaps[] = [
 
 export default function Maps() {
     const { selectedMap, setSelectedMap } = useEditorStore();
-    console.log(1, selectedMap)
     return (
         <section className="maps">
             <Grid gutter={10}>
